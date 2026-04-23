@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Japanese Study Guide</title>
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#667eea">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="日本語">
+<link rel="apple-touch-icon" href="icon.svg">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background:#f5f5f5;color:#333}
+
+/* ── Sticky header ── */
+.hdr{position:sticky;top:0;z-index:1000}
+.tab-bar{background:linear-gradient(135deg,#667eea,#764ba2);padding:10px 16px 0;display:flex;gap:8px}
+.tab-btn{flex:1;padding:11px 8px;border:none;border-radius:8px 8px 0 0;font-size:14px;font-weight:600;cursor:pointer;background:rgba(255,255,255,.15);color:rgba(255,255,255,.8);transition:.2s}
+.tab-btn:hover{background:rgba(255,255,255,.25)}
+.tab-btn.active{background:#f5f5f5;color:#667eea}
+.sub-bar{background:#fff;padding:8px 12px;display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch;border-bottom:1px solid #e0e0e0;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.sub-btn{white-space:nowrap;padding:6px 14px;border:1px solid #ddd;border-radius:20px;font-size:13px;cursor:pointer;background:#fff;color:#555;transition:.2s;flex-shrink:0}
+.sub-btn:hover{border-color:#667eea;color:#667eea}
+.sub-btn.active{background:#667eea;color:#fff;border-color:#667eea}
+
+/* ── Toolbar ── */
+.toolbar{max-width:700px;margin:10px auto 0;padding:0 16px}
+.search-box{width:100%;padding:10px 16px;font-size:15px;border:1px solid #ddd;border-radius:25px;outline:none;margin-bottom:8px}
+.search-box:focus{border-color:#667eea}
+.btn-row{display:flex;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.act-btn{background:#667eea;color:#fff;border:none;padding:7px 14px;border-radius:20px;font-size:12px;cursor:pointer}
+
+/* ── Content ── */
+.content{max-width:700px;margin:0 auto;padding:0 16px 80px}
+.placeholder{text-align:center;padding:60px 16px;color:#999}
+
+/* ── Kanji study ── */
+.stats{background:#e8e8e8;border-radius:8px;padding:10px;margin-bottom:12px;font-size:13px;text-align:center}
+.kanji-group-section{background:#fefefe;border-radius:10px;margin-bottom:14px;border:1px solid #e0e0e0;overflow:hidden}
+.kanji-group-header{background:#f0f0f0;padding:10px 14px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;color:#444;border-bottom:1px solid #e0e0e0;user-select:none}
+.kanji-group-header:hover{background:#e8e8e8}
+.kanji-group-toggle{font-size:16px;transition:transform .3s}
+.kanji-group-section.collapsed .kanji-group-toggle{transform:rotate(-90deg)}
+.kanji-group-content{display:block;padding:12px}
+.kanji-group-section.collapsed .kanji-group-content{display:none}
+
+.kanji-card{background:#fafafa;border-radius:10px;margin-bottom:10px;border:1px solid #e8e8e8;overflow:hidden}
+.kanji-header{padding:14px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:#fff;transition:background .2s;user-select:none}
+.kanji-header:hover{background:#f5f5f5}
+.kanji-header-left{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.kanji-char{font-size:34px;font-weight:bold;min-width:55px;font-family:"Hiragino Kaku Gothic Pro","Noto Sans CJK JP",sans-serif}
+.kanji-summary{display:flex;flex-direction:column;gap:3px}
+.kanji-meanings{font-size:13px;color:#666;max-width:200px}
+.kanji-badges{display:flex;gap:8px;font-size:11px}
+.badge{background:#e8e8e8;padding:2px 8px;border-radius:12px;color:#666}
+.index-badge{background:#667eea;color:#fff;padding:2px 8px;border-radius:20px;font-size:11px;margin-left:8px}
+.kanji-toggle{font-size:16px;color:#999;transition:transform .3s}
+.kanji-card.collapsed .kanji-toggle{transform:rotate(-90deg)}
+.kanji-details{padding:0 14px 14px;display:block;border-top:1px solid #e8e8e8;background:#fafafa}
+.kanji-card.collapsed .kanji-details{display:none}
+
+.readings{margin-bottom:10px}
+.reading-on,.reading-kun{font-size:13px;margin-right:14px}
+.reading-on{color:#e74c3c}
+.reading-kun{color:#3498db}
+
+.jlpt-group{margin-top:10px;border:1px solid #e0e0e0;border-radius:8px;background:#fff;overflow:hidden}
+.jlpt-header{padding:8px 12px;background:#f0f0f0;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:bold;font-size:13px;user-select:none}
+.jlpt-badge{background:#667eea;color:#fff;padding:2px 10px;border-radius:20px;font-size:11px}
+.jlpt-toggle{font-size:14px;transition:transform .3s}
+.jlpt-group.collapsed .jlpt-toggle{transform:rotate(-90deg)}
+.jlpt-content{padding:8px;display:block}
+.jlpt-group.collapsed .jlpt-content{display:none}
+
+.vocab-item{background:#f9f9f9;border-radius:8px;margin-bottom:6px;overflow:hidden}
+.vocab-item>.vocab-header{padding:8px 12px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none;transition:background .2s}
+.vocab-item>.vocab-header:hover{background:#eef2ff}
+.vocab-item .vocab-expression{font-size:15px;font-weight:500}
+.vocab-item .vocab-reading{font-size:11px;color:#999;margin-top:1px}
+.vocab-item .vocab-meaning{font-size:13px;color:#555;margin-top:1px}
+.vocab-item .vocab-toggle{font-size:14px;color:#999;transition:transform .3s;margin-left:8px}
+.vocab-item.collapsed .vocab-toggle{transform:rotate(-90deg)}
+.vocab-kanji-meanings{padding:8px 12px;background:#fff8e7;border-top:1px solid #eee;display:block;font-size:13px}
+.vocab-item.collapsed .vocab-kanji-meanings{display:none}
+.kanji-in-word{margin-bottom:5px;border-bottom:1px solid #f0e0c0;padding-bottom:5px}
+.kanji-in-word:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.small-kanji{font-size:20px;font-weight:bold;margin-right:8px}
+.no-vocab{padding:12px;color:#999;font-style:italic}
+
+/* ── Vocab page ── */
+.group-section{background:#fefefe;border-radius:10px;margin-bottom:14px;border:1px solid #e0e0e0;overflow:hidden}
+.group-header{background:#f0f0f0;padding:10px 14px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600;color:#444;border-bottom:1px solid #e0e0e0;user-select:none}
+.group-header:hover{background:#e8e8e8}
+.group-toggle-icon{font-size:16px;transition:transform .3s}
+.group-section.collapsed .group-toggle-icon{transform:rotate(-90deg)}
+.group-content{display:block;padding:12px}
+.group-section.collapsed .group-content{display:none}
+
+.vocab-card{background:#fafafa;border-radius:10px;margin-bottom:10px;border:1px solid #e8e8e8;overflow:hidden}
+.vocab-card>.vocab-header{padding:12px;display:flex;justify-content:space-between;align-items:center;background:#fff;transition:background .2s}
+.vocab-card>.vocab-header.clickable{cursor:pointer;user-select:none}
+.vocab-card>.vocab-header.clickable:hover{background:#f5f5f5}
+.vocab-header-left{flex:1}
+.word-index{display:inline-block;background:#e0e0e0;font-size:11px;padding:2px 6px;border-radius:20px;margin-right:10px;color:#555}
+.vocab-card .vocab-expression{font-size:17px;font-weight:500;font-family:"Hiragino Kaku Gothic Pro","Noto Sans CJK JP",sans-serif}
+.vocab-card .vocab-reading{font-size:12px;color:#888;margin-top:2px}
+.vocab-card .vocab-meaning{font-size:14px;color:#555;margin-top:4px}
+.vocab-card .vocab-toggle{font-size:18px;color:#999;transition:transform .3s;margin-left:12px}
+.vocab-card.collapsed .vocab-toggle{transform:rotate(-90deg)}
+.vocab-details{padding:0 12px 12px;display:block;border-top:1px solid #e8e8e8;background:#fafafa}
+.vocab-card.collapsed .vocab-details{display:none}
+.kanji-meaning{font-size:14px;color:#555}
+
+@media(max-width:480px){
+  .tab-btn{font-size:13px;padding:10px 6px}
+  .sub-btn{font-size:12px;padding:5px 10px}
+  .kanji-char{font-size:28px;min-width:45px}
+  .kanji-header-left{gap:10px}
+  .kanji-meanings{font-size:12px;max-width:150px}
+  .toolbar,.content{padding-left:12px;padding-right:12px}
+}
+</style>
+</head>
+<body>
+
+<!-- Sticky header: main tabs + sub-tabs -->
+<div class="hdr">
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="mainTab('kanji',this)">📚 Kanji</button>
+    <button class="tab-btn" onclick="mainTab('vocab',this)">📖 Vocabulary</button>
+  </div>
+  <div id="kanji-subs" class="sub-bar">
+        <button class="sub-btn" data-frag="kanji_grade_1.html" onclick="loadFrag(this)">Grade 1</button>
+        <button class="sub-btn" data-frag="kanji_grade_2.html" onclick="loadFrag(this)">Grade 2</button>
+        <button class="sub-btn" data-frag="kanji_grade_3.html" onclick="loadFrag(this)">Grade 3</button>
+        <button class="sub-btn" data-frag="kanji_grade_4.html" onclick="loadFrag(this)">Grade 4</button>
+        <button class="sub-btn" data-frag="kanji_grade_5.html" onclick="loadFrag(this)">Grade 5</button>
+        <button class="sub-btn" data-frag="kanji_grade_6.html" onclick="loadFrag(this)">Grade 6</button>
+        <button class="sub-btn" data-frag="kanji_grade_s1.html" onclick="loadFrag(this)">S (1-370)</button>
+        <button class="sub-btn" data-frag="kanji_grade_s2.html" onclick="loadFrag(this)">S (371-740)</button>
+        <button class="sub-btn" data-frag="kanji_grade_s3.html" onclick="loadFrag(this)">S (741+)</button>
+  </div>
+  <div id="vocab-subs" class="sub-bar" style="display:none">
+        <button class="sub-btn" data-frag="vocab_n5.html" onclick="loadFrag(this)">N5</button>
+        <button class="sub-btn" data-frag="vocab_n4.html" onclick="loadFrag(this)">N4</button>
+        <button class="sub-btn" data-frag="vocab_n3.html" onclick="loadFrag(this)">N3</button>
+        <button class="sub-btn" data-frag="vocab_n2.html" onclick="loadFrag(this)">N2</button>
+        <button class="sub-btn" data-frag="vocab_n1.html" onclick="loadFrag(this)">N1</button>
+  </div>
+</div>
+
+<!-- Toolbar -->
+<div class="toolbar">
+  <input type="text" class="search-box" id="searchBox" placeholder="🔍 Search...">
+  <div class="btn-row">
+    <button class="act-btn" onclick="expandAll()">📖 Expand All</button>
+    <button class="act-btn" onclick="collapseAll()">📕 Collapse All</button>
+  </div>
+</div>
+
+<!-- Content (fragments loaded here) -->
+<div id="content" class="content">
+  <div class="placeholder">👆 Pick a section above to start studying</div>
+</div>
+
+<script>
+const cache={};
+
+function mainTab(t,btn){
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('kanji-subs').style.display=t==='kanji'?'flex':'none';
+  document.getElementById('vocab-subs').style.display=t==='vocab'?'flex':'none';
+  document.querySelectorAll('.sub-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('content').innerHTML='<div class="placeholder">👆 Pick a section above to start studying</div>';
+  document.getElementById('searchBox').value='';
+}
+
+async function loadFrag(btn){
+  const f=btn.dataset.frag;
+  btn.closest('.sub-bar').querySelectorAll('.sub-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const el=document.getElementById('content');
+  if(cache[f]){el.innerHTML=cache[f];return;}
+  el.innerHTML='<div class="placeholder">Loading…</div>';
+  try{
+    const r=await fetch(f);
+    if(!r.ok)throw r.status;
+    const h=await r.text();
+    cache[f]=h;el.innerHTML=h;
+  }catch(e){el.innerHTML='<div class="placeholder">Failed to load – check connection.</div>';}
+}
+
+/* Toggle helpers (global – called by onclick in fragments) */
+function toggleKanjiGroup(e){e.classList.toggle('collapsed')}
+function toggleKanji(e){e.classList.toggle('collapsed')}
+function toggleJlptGroup(e){e.classList.toggle('collapsed')}
+function toggleVocab(e){e.classList.toggle('collapsed')}
+function toggleGroup(e){e.classList.toggle('collapsed')}
+
+function expandAll(){
+  document.querySelectorAll('.kanji-group-section,.kanji-card,.jlpt-group,.vocab-item,.group-section,.vocab-card').forEach(e=>e.classList.remove('collapsed'));
+}
+function collapseAll(){
+  document.querySelectorAll('.kanji-group-section,.kanji-card,.jlpt-group,.vocab-item,.group-section,.vocab-card').forEach(e=>e.classList.add('collapsed'));
+}
+
+/* Search across loaded fragment */
+document.getElementById('searchBox').addEventListener('input',function(ev){
+  const t=ev.target.value.toLowerCase().trim();
+  /* kanji cards */
+  document.querySelectorAll('.kanji-card').forEach(c=>{
+    const m=!t||[c.dataset.kanji,c.dataset.meanings,c.dataset.readings].some(s=>(s||'').includes(t));
+    c.style.display=m?'':'none';
+    if(m&&t){c.classList.remove('collapsed');const g=c.closest('.kanji-group-section');if(g)g.classList.remove('collapsed');}
+  });
+  /* vocab cards */
+  document.querySelectorAll('.vocab-card').forEach(c=>{
+    const ex=c.querySelector('.vocab-expression')?.innerText.toLowerCase()||'';
+    const rd=c.querySelector('.vocab-reading')?.innerText.toLowerCase()||'';
+    const mn=c.querySelector('.vocab-meaning')?.innerText.toLowerCase()||'';
+    const m=!t||ex.includes(t)||rd.includes(t)||mn.includes(t);
+    c.style.display=m?'':'none';
+    if(m&&t){const g=c.closest('.group-section');if(g)g.classList.remove('collapsed');}
+  });
+});
+
+/* PWA */
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js').catch(()=>{});
+</script>
+</body>
+</html>
