@@ -3,1704 +3,2272 @@
     "id": 1,
     "jlpt_level": "N5",
     "grammar_point": "だ / です (da / desu): to be",
-    "sentence": "それは非常に面白いコメントですね。"
+    "sentence": "それは非常に面白いコメントですね。",
+    "short_explanation": "Indicates 'to be' or state of being, used to equate or describe nouns and adjectives.",
+    "translation": "That is a very interesting comment, isn't it?"
   },
   {
     "id": 2,
     "jlpt_level": "N5",
     "grammar_point": "だけ (dake): only, just",
-    "sentence": "私はただ臆測しただけです。"
+    "sentence": "私はただ臆測しただけです。",
+    "short_explanation": "Indicates limitation, meaning 'only' or 'just' something, excluding others.",
+    "translation": "I only just speculated."
   },
   {
     "id": 3,
     "jlpt_level": "N5",
     "grammar_point": "だろう (darou): don’t you agree?, probably",
-    "sentence": "あなたはそれいじょう、お金はいらないだろう。"
+    "sentence": "あなたはそれいじょう、お金はいらないだろう。",
+    "short_explanation": "Expresses conjecture or seeks agreement, like 'probably' or 'don't you think?'",
+    "translation": "You probably don't need any more money."
   },
   {
     "id": 4,
     "jlpt_level": "N5",
     "grammar_point": "で (de) - 1: in, at, on",
-    "sentence": "ここでサッカーをしないでください。"
+    "sentence": "ここでサッカーをしないでください。",
+    "short_explanation": "Indicates the location where an action takes place.",
+    "translation": "Please don't play soccer here."
   },
   {
     "id": 5,
     "jlpt_level": "N5",
     "grammar_point": "で (de) - 2: by, with",
-    "sentence": "震える指で、彼女は封筒を開けた。"
+    "sentence": "震える指で、彼女は封筒を開けた。",
+    "short_explanation": "Indicates the means or method by which an action is performed, like 'by' or 'with'.",
+    "translation": "With trembling fingers, she opened the envelope."
   },
   {
     "id": 6,
     "jlpt_level": "N5",
     "grammar_point": "でしょう (deshou): I think, probably",
-    "sentence": "宿題は後でできるでしょう。"
+    "sentence": "宿題は後でできるでしょう。",
+    "short_explanation": "Expresses conjecture or probability, meaning 'probably' or 'I think'.",
+    "translation": "I think I can do the homework later."
   },
   {
     "id": 7,
     "jlpt_level": "N5",
     "grammar_point": "が (ga) - 1: subject marker",
-    "sentence": "夏が過ぎ、冬がふたたびやって来た。"
+    "sentence": "夏が過ぎ、冬がふたたびやって来た。",
+    "short_explanation": "Marks the subject of a sentence, often used with intransitive verbs or to describe states.",
+    "translation": "Summer passed, and winter came again."
   },
   {
     "id": 8,
     "jlpt_level": "N5",
     "grammar_point": "が (ga) - 2: but, however, still",
-    "sentence": "通路は広かったが真暗だった。"
+    "sentence": "通路は広かったが真暗だった。",
+    "short_explanation": "Connects two contrasting clauses, meaning 'but', 'however', or 'still'.",
+    "translation": "The corridor was wide, but it was pitch dark."
   },
   {
     "id": 9,
     "jlpt_level": "N5",
     "grammar_point": "がある (ga aru): to be, to exist (inanimate objects)",
-    "sentence": "言いたいことがありますか？"
+    "sentence": "言いたいことがありますか？",
+    "short_explanation": "Indicates existence or possession of inanimate objects, meaning 'there is/are' or 'have'.",
+    "translation": "Is there something you want to say?"
   },
   {
     "id": 10,
     "jlpt_level": "N5",
     "grammar_point": "がいる (gairu): to be, to exist (living objects)",
-    "sentence": "図書館に人がいっぱいいる。"
+    "sentence": "図書館に人がいっぱいいる。",
+    "short_explanation": "Indicates existence of living things, like people or animals, at a location.",
+    "translation": "There are many people in the library."
   },
   {
     "id": 11,
     "jlpt_level": "N5",
     "grammar_point": "ほうがいい (hou ga ii) - 1: had better, should",
-    "sentence": "英会話をもっと練習したほうがいい。"
+    "sentence": "英会話をもっと練習したほうがいい。",
+    "short_explanation": "Indicates a recommendation or advice, meaning 'had better' or 'should' do something.",
+    "translation": "You should practice English conversation more."
   },
   {
     "id": 12,
     "jlpt_level": "N5",
     "grammar_point": "ほうがいい (hou ga ii) - 2: it’d be better to not",
-    "sentence": "約束を忘れないほうがいい。"
+    "sentence": "約束を忘れないほうがいい。",
+    "short_explanation": "Expresses that it is advisable not to do something.",
+    "translation": "You'd better not forget the promise."
   },
   {
     "id": 13,
     "jlpt_level": "N5",
     "grammar_point": "いちばん (ichiban): the most, the best",
-    "sentence": "一番嫌いな男性のタイプは何ですか？"
+    "sentence": "一番嫌いな男性のタイプは何ですか？",
+    "short_explanation": "Indicates the highest degree or best among options, used to compare things.",
+    "translation": "What is your most disliked type of man?"
   },
   {
     "id": 14,
     "jlpt_level": "N5",
     "grammar_point": "か (ka) - 1: question particle",
-    "sentence": "あなたがだれなのか、どうやってここへ来たのか、誰にもわからない。"
+    "sentence": "あなたがだれなのか、どうやってここへ来たのか、誰にもわからない。",
+    "short_explanation": "Particle 'ka' turns a sentence into a question, often used with question words or to express uncertainty.",
+    "translation": "No one knows who you are or how you came here."
   },
   {
     "id": 15,
     "jlpt_level": "N5",
     "grammar_point": "か (ka) - 2: or",
-    "sentence": "あの男たちは、佐々木か私を探しているのだ。"
+    "sentence": "あの男たちは、佐々木か私を探しているのだ。",
+    "short_explanation": "Particle 'か' between nouns means 'or', listing alternatives.",
+    "translation": "Those men are looking for Sasaki or me."
   },
   {
     "id": 16,
     "jlpt_level": "N5",
     "grammar_point": "から (kara) - 1: since, because",
-    "sentence": "財布を忘れたから、電車の切符を買えなかった。"
+    "sentence": "財布を忘れたから、電車の切符を買えなかった。",
+    "short_explanation": "Indicates a reason or cause, meaning 'because' or 'since'.",
+    "translation": "Because I forgot my wallet, I couldn't buy a train ticket."
   },
   {
     "id": 17,
     "jlpt_level": "N5",
     "grammar_point": "から (kara) - 2: from, since",
-    "sentence": "彼はやっと地獄から逃げ出した。"
+    "sentence": "彼はやっと地獄から逃げ出した。",
+    "short_explanation": "Indicates the starting point in time or place, meaning 'from' or 'since'.",
+    "translation": "He finally escaped from hell."
   },
   {
     "id": 18,
     "jlpt_level": "N5",
     "grammar_point": "けど / けれども (kedo / keredomo): but, however, although",
-    "sentence": "千葉君は顔は汚いけど、心はとっても清いんです。"
+    "sentence": "千葉君は顔は汚いけど、心はとっても清いんです。",
+    "short_explanation": "Connects two clauses, contrasting or adding background info, meaning 'but', 'however', or 'although'.",
+    "translation": "Chiba-kun's face is dirty, but his heart is very pure."
   },
   {
     "id": 19,
     "jlpt_level": "N5",
     "grammar_point": "くらい / ぐらい (kurai / gurai) - 1: about, approximately, at the very least",
-    "sentence": "自分の服ぐらい自分で洗ってよ。"
+    "sentence": "自分の服ぐらい自分で洗ってよ。",
+    "short_explanation": "Indicates an approximate amount, degree, or extent, meaning 'about' or 'approximately'.",
+    "translation": "At least wash your own clothes."
   },
   {
     "id": 20,
     "jlpt_level": "N5",
     "grammar_point": "まだ (mada): still, not yet",
-    "sentence": "わたしはまだ結婚していません。"
+    "sentence": "わたしはまだ結婚していません。",
+    "short_explanation": "Indicates that an action or state is still ongoing or has not yet occurred.",
+    "translation": "I am not yet married."
   },
   {
     "id": 21,
     "jlpt_level": "N5",
     "grammar_point": "まで (made): until, till, as far as, to (an extent)",
-    "sentence": "この話に結着がつくまでお待ちになってください。"
+    "sentence": "この話に結着がつくまでお待ちになってください。",
+    "short_explanation": "Indicates a limit in time, space, or degree, meaning 'until' or 'as far as'.",
+    "translation": "Please wait until this matter is concluded."
   },
   {
     "id": 22,
     "jlpt_level": "N5",
     "grammar_point": "まえに (mae ni): before, in front of",
-    "sentence": "食事の前に手を洗ってください。"
+    "sentence": "食事の前に手を洗ってください。",
+    "short_explanation": "Indicates an action occurs before another, or location in front of something.",
+    "translation": "Please wash your hands before eating."
   },
   {
     "id": 23,
     "jlpt_level": "N5",
     "grammar_point": "ませんか (masen ka): let’s, won’t you",
-    "sentence": "私のパーティーに参加しませんか？"
+    "sentence": "私のパーティーに参加しませんか？",
+    "short_explanation": "Invites someone to do something politely, like 'won't you?' or 'let's'.",
+    "translation": "Won't you join my party?"
   },
   {
     "id": 24,
     "jlpt_level": "N5",
     "grammar_point": "ましょう (mashou): let’s, shall we",
-    "sentence": "テストを始めましょうか？"
+    "sentence": "テストを始めましょうか？",
+    "short_explanation": "Volitional form meaning 'let's do' or 'shall we do', used to suggest an action.",
+    "translation": "Shall we start the test?"
   },
   {
     "id": 25,
     "jlpt_level": "N5",
     "grammar_point": "も (mo): also, too, as well",
-    "sentence": "僕も昨日徹夜で勉強しました。"
+    "sentence": "僕も昨日徹夜で勉強しました。",
+    "short_explanation": "Particle 'mo' indicates that something is also included, meaning 'too' or 'as well'.",
+    "translation": "I also studied all night yesterday."
   },
   {
     "id": 26,
     "jlpt_level": "N5",
     "grammar_point": "もう (mou): already, anymore",
-    "sentence": "もう我慢できない。"
+    "sentence": "もう我慢できない。",
+    "short_explanation": "Indicates that an action has already occurred or that a state no longer holds true.",
+    "translation": "I can't stand it anymore."
   },
   {
     "id": 27,
     "jlpt_level": "N5",
     "grammar_point": "な (na): don’t do (command)",
-    "sentence": "銃を使うな！"
+    "sentence": "銃を使うな！",
+    "short_explanation": "Used to give a strong negative command, meaning 'don't do' something.",
+    "translation": "Don't use the gun!"
   },
   {
     "id": 28,
     "jlpt_level": "N5",
     "grammar_point": "ないでください (naide kudasai): please don’t",
-    "sentence": "宿題をするのを忘れないでください。"
+    "sentence": "宿題をするのを忘れないでください。",
+    "short_explanation": "Used to politely ask someone not to do something, meaning 'please don't'.",
+    "translation": "Please don't forget to do your homework."
   },
   {
     "id": 29,
     "jlpt_level": "N5",
     "grammar_point": "なる (naru): to become",
-    "sentence": "彼女が美しくなりましたね。"
+    "sentence": "彼女が美しくなりましたね。",
+    "short_explanation": "Indicates a change of state, meaning 'to become' or 'to turn into'.",
+    "translation": "She has become beautiful, hasn't she?"
   },
   {
     "id": 30,
     "jlpt_level": "N5",
     "grammar_point": "に (ni): in, at, on",
-    "sentence": "ここに名前を書いてください。"
+    "sentence": "ここに名前を書いてください。",
+    "short_explanation": "Indicates location or time where something exists or occurs.",
+    "translation": "Please write your name here."
   },
   {
     "id": 31,
     "jlpt_level": "N5",
     "grammar_point": "に/へ (ni/e): to",
-    "sentence": "ベッドに戻りたい。"
+    "sentence": "ベッドに戻りたい。",
+    "short_explanation": "Indicates direction or destination of movement, like 'to' in English.",
+    "translation": "I want to go back to bed."
   },
   {
     "id": 32,
     "jlpt_level": "N5",
     "grammar_point": "にいく (ni iku): to go in order to do something",
-    "sentence": "薪を集めに行こう!"
+    "sentence": "薪を集めに行こう!",
+    "short_explanation": "Indicates going somewhere to perform an action, combining verb stem + にいく.",
+    "translation": "Let's go gather firewood!"
   },
   {
     "id": 33,
     "jlpt_level": "N5",
     "grammar_point": "にする (ni suru): to decide on",
-    "sentence": "田舎へは行かないことにしましょうよ。"
+    "sentence": "田舎へは行かないことにしましょうよ。",
+    "short_explanation": "Indicates making a decision or choice about something.",
+    "translation": "Let's decide not to go to the countryside."
   },
   {
     "id": 34,
     "jlpt_level": "N5",
     "grammar_point": "の (no) - 1: of (indicates possessive)",
-    "sentence": "予定の計画にはなんら変更はありません。"
+    "sentence": "予定の計画にはなんら変更はありません。",
+    "short_explanation": "Indicates possession or relationship between two nouns, like 'of' or apostrophe-s in English.",
+    "translation": "There are no changes to the planned schedule."
   },
   {
     "id": 35,
     "jlpt_level": "N5",
     "grammar_point": "の (no) – 2: Verb nominalizer",
-    "sentence": "わたしたちが捕まるのも時間の問題だわ！"
+    "sentence": "わたしたちが捕まるのも時間の問題だわ！",
+    "short_explanation": "Turns a verb into a noun, like adding '-ing' in English.",
+    "translation": "It's only a matter of time before we get caught!"
   },
   {
     "id": 36,
     "jlpt_level": "N5",
     "grammar_point": "ので (node): because of, the reason is that",
-    "sentence": "少し仮眠を取りますので、状況が変化したら起こしてください。"
+    "sentence": "少し仮眠を取りますので、状況が変化したら起こしてください。",
+    "short_explanation": "Indicates a reason or cause, often used for objective or polite explanations.",
+    "translation": "I will take a short nap, so please wake me up if the situation changes."
   },
   {
     "id": 37,
     "jlpt_level": "N5",
     "grammar_point": "のがじょうず (no ga jouzu): to be good at",
-    "sentence": "教えるのが上手な人は、どんな人？"
+    "sentence": "教えるのが上手な人は、どんな人？",
+    "short_explanation": "Indicates someone is skilled or good at doing a specific action.",
+    "translation": "What kind of person is good at teaching?"
   },
   {
     "id": 38,
     "jlpt_level": "N5",
     "grammar_point": "のがへた (no ga heta): to be bad at",
-    "sentence": "お酒を飲むのが下手なのです。"
+    "sentence": "お酒を飲むのが下手なのです。",
+    "short_explanation": "Indicates someone is not skilled or poor at doing something.",
+    "translation": "I am bad at drinking alcohol."
   },
   {
     "id": 39,
     "jlpt_level": "N5",
     "grammar_point": "のがすき (no ga suki): to love doing something",
-    "sentence": "妻は不平を言うのが好き。"
+    "sentence": "妻は不平を言うのが好き。",
+    "short_explanation": "Expresses liking or loving an activity, attaching 'no ga suki' to a verb's plain form.",
+    "translation": "My wife likes to complain."
   },
   {
     "id": 40,
     "jlpt_level": "N5",
     "grammar_point": "すぎる (sugiru): too much",
-    "sentence": "この子達にギャンブルは早すぎる。"
+    "sentence": "この子達にギャンブルは早すぎる。",
+    "short_explanation": "Means 'too much' or 'excessive,' attached to verb stems or adjective stems.",
+    "translation": "Gambling is too early for these kids."
   },
   {
     "id": 41,
     "jlpt_level": "N5",
     "grammar_point": "たい (tai): want to",
-    "sentence": "あなたの言うことを聞きたくない。"
+    "sentence": "あなたの言うことを聞きたくない。",
+    "short_explanation": "Expresses desire to do an action, attached to verb stem.",
+    "translation": "I don't want to listen to what you say."
   },
   {
     "id": 42,
     "jlpt_level": "N5",
     "grammar_point": "たことがある (ta koto ga aru): have done something before",
-    "sentence": "あの人は誰？何度も見たことがあるよ。"
+    "sentence": "あの人は誰？何度も見たことがあるよ。",
+    "short_explanation": "Indicates past experience of having done something before.",
+    "translation": "Who is that person? I've seen them many times before."
   },
   {
     "id": 43,
     "jlpt_level": "N5",
     "grammar_point": "ている (te iru): to be doing something",
-    "sentence": "何を考えていますか？"
+    "sentence": "何を考えていますか？",
+    "short_explanation": "Indicates an ongoing action or current state, equivalent to present progressive in English.",
+    "translation": "What are you thinking about?"
   },
   {
     "id": 44,
     "jlpt_level": "N5",
     "grammar_point": "てください (te kudasai): please do",
-    "sentence": "ドアをしめてください。"
+    "sentence": "ドアをしめてください。",
+    "short_explanation": "Used to politely request someone to do an action, equivalent to 'please do (verb)'.",
+    "translation": "Please close the door."
   },
   {
     "id": 45,
     "jlpt_level": "N5",
     "grammar_point": "てもいい (te mo ii): it’s okay to, can, may",
-    "sentence": "それじゃ、わたし、行ってもいいですか？"
+    "sentence": "それじゃ、わたし、行ってもいいですか？",
+    "short_explanation": "Indicates permission or that an action is allowed, meaning 'it's okay to' or 'may'.",
+    "translation": "Well then, may I go?"
   },
   {
     "id": 46,
     "jlpt_level": "N5",
     "grammar_point": "てから (te kara): after doing something, since",
-    "sentence": "このクラブを出てから兄は行方不明になったんだ！"
+    "sentence": "このクラブを出てから兄は行方不明になったんだ！",
+    "short_explanation": "Indicates that one action occurs after another is completed, meaning 'after doing something'.",
+    "translation": "After leaving this club, my brother went missing!"
   },
   {
     "id": 47,
     "jlpt_level": "N5",
     "grammar_point": "てはいけない (te wa ikenai): may not, must not",
-    "sentence": "あの男には逆らってはいけないと思う。"
+    "sentence": "あの男には逆らってはいけないと思う。",
+    "short_explanation": "Expresses prohibition, meaning 'must not' or 'may not' do something.",
+    "translation": "I think you must not defy that man."
   },
   {
     "id": 48,
     "jlpt_level": "N5",
     "grammar_point": "と (to) - 1: and, with",
-    "sentence": "若い二人は目と目を見交わした。"
+    "sentence": "若い二人は目と目を見交わした。",
+    "short_explanation": "Particle 'と' connects nouns meaning 'and' or indicates accompaniment 'with'.",
+    "translation": "The young couple exchanged glances with each other."
   },
   {
     "id": 49,
     "jlpt_level": "N5",
     "grammar_point": "つもり (tsumori): plan on doing something",
-    "sentence": "国へ帰ったら、会社をつくるつもりだ。"
+    "sentence": "国へ帰ったら、会社をつくるつもりだ。",
+    "short_explanation": "Expresses intention or plan to do something, similar to 'intend to' or 'plan to'.",
+    "translation": "I plan to start a company when I return to my country."
   },
   {
     "id": 50,
     "jlpt_level": "N5",
     "grammar_point": "や (ya): and",
-    "sentence": "私はずっと、レジャーや観光や旅行にとても関心がありました。"
+    "sentence": "私はずっと、レジャーや観光や旅行にとても関心がありました。",
+    "short_explanation": "Particle 'ya' lists multiple items as examples, implying there are others not mentioned.",
+    "translation": "I have always been very interested in leisure, sightseeing, travel, and so on."
   },
   {
     "id": 51,
     "jlpt_level": "N5",
     "grammar_point": "より~ほうが ~ (yori~ hou ga): more than",
-    "sentence": "女より男のほうが飽きやすいものだ。"
+    "sentence": "女より男のほうが飽きやすいものだ。",
+    "short_explanation": "Indicates that one thing is more than another in comparison.",
+    "translation": "Men are more prone to boredom than women."
   },
   {
     "id": 52,
     "jlpt_level": "N4",
     "grammar_point": "あまり～ない (amari~nai): not very, not much",
-    "sentence": "今度の一件については、どうもあまり自信はない。"
+    "sentence": "今度の一件については、どうもあまり自信はない。",
+    "short_explanation": "Used with negative verbs to mean 'not very' or 'not much', indicating a lack of degree or frequency.",
+    "translation": "I'm not very confident about this matter."
   },
   {
     "id": 53,
     "jlpt_level": "N4",
     "grammar_point": "あとで (ato de): after, later",
-    "sentence": "私は会社を辞めたあとで、彼からの連絡もめっきり減っていた。"
+    "sentence": "私は会社を辞めたあとで、彼からの連絡もめっきり減っていた。",
+    "short_explanation": "Indicates that one action occurs after another action or time.",
+    "translation": "After I quit the company, his contact with me also noticeably decreased."
   },
   {
     "id": 54,
     "jlpt_level": "N4",
     "grammar_point": "ば (ba): if… then",
-    "sentence": "人は死ねば、皮膚しか身につけていない。"
+    "sentence": "人は死ねば、皮膚しか身につけていない。",
+    "short_explanation": "Indicates a conditional 'if... then' relationship, where the result occurs if the condition is met.",
+    "translation": "When a person dies, they only have their skin."
   },
   {
     "id": 55,
     "jlpt_level": "N4",
     "grammar_point": "場合は (baai wa): in the event of",
-    "sentence": "頭部の外傷の場合、最初の二十四時間は注意が必要です。"
+    "sentence": "頭部の外傷の場合、最初の二十四時間は注意が必要です。",
+    "short_explanation": "Means 'in the case of' or 'if', used to describe a condition or situation.",
+    "translation": "In the event of a head injury, caution is necessary for the first 24 hours."
   },
   {
     "id": 56,
     "jlpt_level": "N4",
     "grammar_point": "だけで (dake de): just by",
-    "sentence": "安定した収入を得るだけでは満足できなかった。"
+    "sentence": "安定した収入を得るだけでは満足できなかった。",
+    "short_explanation": "Indicates that doing just one thing is sufficient to achieve a result.",
+    "translation": "I couldn't be satisfied just by obtaining a stable income."
   },
   {
     "id": 57,
     "jlpt_level": "N4",
     "grammar_point": "だす (dasu): to suddenly begin, to suddenly appear",
-    "sentence": "彼の話を聞いて、つい笑い出してしまった。"
+    "sentence": "彼の話を聞いて、つい笑い出してしまった。",
+    "short_explanation": "Indicates the sudden start of an action or appearance of a state.",
+    "translation": "Upon hearing his story, I couldn't help but suddenly start laughing."
   },
   {
     "id": 58,
     "jlpt_level": "N4",
     "grammar_point": "でも (demo): or something",
-    "sentence": "何か暖かいものでも飲む？"
+    "sentence": "何か暖かいものでも飲む？",
+    "short_explanation": "Indicates 'or something like that' to give a casual example or suggestion.",
+    "translation": "Would you like to drink something warm or something?"
   },
   {
     "id": 59,
     "jlpt_level": "N4",
     "grammar_point": "でございます (de gozaimasu): to be (honorific)",
-    "sentence": "ほんとに冬の間は、ここはおそろしいほど閑静なんでございますのよ。"
+    "sentence": "ほんとに冬の間は、ここはおそろしいほど閑静なんでございますのよ。",
+    "short_explanation": "Polite, humble form of です, used in formal speech to show respect or humility.",
+    "translation": "Really, during winter, this place is terribly quiet."
   },
   {
     "id": 60,
     "jlpt_level": "N4",
     "grammar_point": "がる (garu): to show signs of, to feel",
-    "sentence": "手に入れるのが難しいものほど、人は欲しがるのだ。"
+    "sentence": "手に入れるのが難しいものほど、人は欲しがるのだ。",
+    "short_explanation": "Indicates that someone shows signs of feeling or acting a certain way, based on external observation.",
+    "translation": "The harder something is to obtain, the more people want it."
   },
   {
     "id": 61,
     "jlpt_level": "N4",
     "grammar_point": "がする (ga suru): smell, hear, taste",
-    "sentence": "背後で重厚なドアが閉じる音がした。"
+    "sentence": "背後で重厚なドアが閉じる音がした。",
+    "short_explanation": "Indicates perception of a smell, sound, taste, or feeling, often with 'ga' marking the sensory input.",
+    "translation": "I heard the sound of a heavy door closing behind me."
   },
   {
     "id": 62,
     "jlpt_level": "N4",
     "grammar_point": "ごろ (goro): around, about",
-    "sentence": "オフィスには八時頃行き、電話をかけたり受けたりし始めます。"
+    "sentence": "オフィスには八時頃行き、電話をかけたり受けたりし始めます。",
+    "short_explanation": "Indicates an approximate time or period, like 'around' or 'about' in English.",
+    "translation": "I go to the office around 8 o'clock and start making and receiving phone calls."
   },
   {
     "id": 63,
     "jlpt_level": "N4",
     "grammar_point": "ございます (gozaimasu): to be, to exist (honorific)",
-    "sentence": "ここに私の出生証明書がございます。"
+    "sentence": "ここに私の出生証明書がございます。",
+    "short_explanation": "Honorific form of 'arimasu' meaning 'to be/exist', used to show respect.",
+    "translation": "Here is my birth certificate."
   },
   {
     "id": 64,
     "jlpt_level": "N4",
     "grammar_point": "始める (hajimeru): to start, to begin to",
-    "sentence": "私はとても暑く感じ始めました。"
+    "sentence": "私はとても暑く感じ始めました。",
+    "short_explanation": "Indicates the beginning of an action or state, attached to the stem of a verb.",
+    "translation": "I started to feel very hot."
   },
   {
     "id": 65,
     "jlpt_level": "N4",
     "grammar_point": "はずだ (hazu da): it must be, it should be",
-    "sentence": "容疑者に裁判を拒否することはできないはずです。"
+    "sentence": "容疑者に裁判を拒否することはできないはずです。",
+    "short_explanation": "Expresses strong expectation or assumption based on logical reasoning or known facts.",
+    "translation": "It should not be possible for the suspect to refuse the trial."
   },
   {
     "id": 66,
     "jlpt_level": "N4",
     "grammar_point": "はずがない (hazu ga nai): cannot be",
-    "sentence": "ご主人の悪口を奥さんに聞かせていいはずがないんだ。"
+    "sentence": "ご主人の悪口を奥さんに聞かせていいはずがないんだ。",
+    "short_explanation": "Expresses strong conviction that something is impossible or cannot be true.",
+    "translation": "It cannot be right to let the wife hear her husband's insults."
   },
   {
     "id": 67,
     "jlpt_level": "N4",
     "grammar_point": "必要: need, necessary",
-    "sentence": "私たちには、皆が公平に扱われるための、明確な一連の規則が必要だ。"
+    "sentence": "私たちには、皆が公平に扱われるための、明確な一連の規則が必要だ。",
+    "short_explanation": "Indicates something is necessary or required, often used with が or は.",
+    "translation": "We need a clear set of rules so that everyone is treated fairly."
   },
   {
     "id": 68,
     "jlpt_level": "N4",
     "grammar_point": "必要がある (hitsuyou ga aru): it is necessary to",
-    "sentence": "もう一度お会いする必要があります。"
+    "sentence": "もう一度お会いする必要があります。",
+    "short_explanation": "Indicates necessity or obligation to do something, equivalent to 'must' or 'have to'.",
+    "translation": "It is necessary to meet you again."
   },
   {
     "id": 69,
     "jlpt_level": "N4",
     "grammar_point": "欲しい (hoshii): to want something, to be in need of",
-    "sentence": "イエスという答がほしい。あなたはこの仕事の最適任者だ。"
+    "sentence": "イエスという答がほしい。あなたはこの仕事の最適任者だ。",
+    "short_explanation": "Used to express desire for a noun; indicates wanting or needing something.",
+    "translation": "I want a yes answer. You are the best person for this job."
   },
   {
     "id": 70,
     "jlpt_level": "N4",
     "grammar_point": "いらっしゃる (irassharu): to be, to come, to go (honorific)",
-    "sentence": "またいらっしゃってください。"
+    "sentence": "またいらっしゃってください。",
+    "short_explanation": "Honorific verb for 'to be', 'to come', or 'to go', used to show respect to the subject.",
+    "translation": "Please come again."
   },
   {
     "id": 71,
     "jlpt_level": "N4",
     "grammar_point": "いたす (itasu): to do (honorific)",
-    "sentence": "お邪魔いたしまして申しわけございませんでした。"
+    "sentence": "お邪魔いたしまして申しわけございませんでした。",
+    "short_explanation": "Humble form of 'suru' (to do), used to show respect by lowering oneself.",
+    "translation": "I am sorry for having intruded."
   },
   {
     "id": 72,
     "jlpt_level": "N4",
     "grammar_point": "じゃないか (janai ka): isn’t it",
-    "sentence": "隠れるところがないじゃないか！"
+    "sentence": "隠れるところがないじゃないか！",
+    "short_explanation": "Expresses rhetorical question or surprise, meaning 'isn't it?' or 'right?'",
+    "translation": "There's no place to hide, is there!"
   },
   {
     "id": 73,
     "jlpt_level": "N4",
     "grammar_point": "かどうか (ka dou ka): whether or not",
-    "sentence": "自分が本当に正しいことをしているのかどうか、確信がもてなくなることがある。"
+    "sentence": "自分が本当に正しいことをしているのかどうか、確信がもてなくなることがある。",
+    "short_explanation": "Means 'whether or not', used to express uncertainty or choice between two alternatives.",
+    "translation": "There are times when I lose confidence in whether or not I am truly doing the right thing."
   },
   {
     "id": 74,
     "jlpt_level": "N4",
     "grammar_point": "かい (kai): [turns a sentence into a yes/no question]",
-    "sentence": "それで、学校はどうだった？友だちはできたかい？"
+    "sentence": "それで、学校はどうだった？友だちはできたかい？",
+    "short_explanation": "Adds かい to a sentence to form a casual yes/no question.",
+    "translation": "So, how was school? Did you make friends?"
   },
   {
     "id": 75,
     "jlpt_level": "N4",
     "grammar_point": "かもしれない (kamoshirenai): might, maybe",
-    "sentence": "私は本当はあなたに会わなかったほうがよかったのかもしれない。"
+    "sentence": "私は本当はあなたに会わなかったほうがよかったのかもしれない。",
+    "short_explanation": "Expresses uncertainty or possibility, meaning 'might' or 'maybe'.",
+    "translation": "Maybe it would have been better if I had never met you."
   },
   {
     "id": 76,
     "jlpt_level": "N4",
     "grammar_point": "かな (kana): I wonder",
-    "sentence": "あなたはわたしといっしょに旅行するのはいやなのかな？"
+    "sentence": "あなたはわたしといっしょに旅行するのはいやなのかな？",
+    "short_explanation": "Expresses uncertainty or wonder, like 'I wonder' in English.",
+    "translation": "I wonder if you don't want to travel with me?"
   },
   {
     "id": 77,
     "jlpt_level": "N4",
     "grammar_point": "かた (kata): how to",
-    "sentence": "その初めて投票したときのやり方は、誇れるようなものではありません。"
+    "sentence": "その初めて投票したときのやり方は、誇れるようなものではありません。",
+    "short_explanation": "Indicates the method or way of doing an action, meaning 'how to' do something.",
+    "translation": "The way I voted for the first time is not something to be proud of."
   },
   {
     "id": 78,
     "jlpt_level": "N4",
     "grammar_point": "かしら (kashira): I wonder",
-    "sentence": "今度の土曜日に電話かけていいかしら？"
+    "sentence": "今度の土曜日に電話かけていいかしら？",
+    "short_explanation": "Expresses uncertainty or a question, often used by females to mean 'I wonder' or 'I wonder if'.",
+    "translation": "I wonder if it's okay to call this Saturday?"
   },
   {
     "id": 79,
     "jlpt_level": "N4",
     "grammar_point": "こと (koto): Verb nominalizer",
-    "sentence": "彼は休息に多くの時間をあたえることになれていない。"
+    "sentence": "彼は休息に多くの時間をあたえることになれていない。",
+    "short_explanation": "Nominalizes a verb, turning it into a noun phrase to express an action or state.",
+    "translation": "He is not used to giving a lot of time to rest."
   },
   {
     "id": 80,
     "jlpt_level": "N4",
     "grammar_point": "ことができる (koto ga dekiru): can, be able to",
-    "sentence": "彼女はどうかこうか字は読めたが、書くことができなかった。"
+    "sentence": "彼女はどうかこうか字は読めたが、書くことができなかった。",
+    "short_explanation": "Indicates ability or possibility to do something, equivalent to 'can' or 'be able to'.",
+    "translation": "She could somehow read the characters, but couldn't write them."
   },
   {
     "id": 81,
     "jlpt_level": "N4",
     "grammar_point": "までに (made ni): by, by the time",
-    "sentence": "僕はこれまでに何度か彼女に嘘をついた。"
+    "sentence": "僕はこれまでに何度か彼女に嘘をついた。",
+    "short_explanation": "Indicates a deadline or time limit by which an action must be completed.",
+    "translation": "I have lied to her several times up to now."
   },
   {
     "id": 82,
     "jlpt_level": "N4",
     "grammar_point": "みたい (mitai): like, sort of",
-    "sentence": "あまり頭のいい人物じゃなかったけど、かなり儲けているみたいだった。"
+    "sentence": "あまり頭のいい人物じゃなかったけど、かなり儲けているみたいだった。",
+    "short_explanation": "Indicates resemblance or appearance based on observation, like 'seems like' or 'looks like'.",
+    "translation": "He wasn't a very smart person, but he seemed to be making a lot of money."
   },
   {
     "id": 83,
     "jlpt_level": "N4",
     "grammar_point": "みたいに/みたいな (mitai ni/mitai na): like, similar to",
-    "sentence": "彼女の心は氷みたいに冷たい。"
+    "sentence": "彼女の心は氷みたいに冷たい。",
+    "short_explanation": "Indicates something is similar to or like something else, used with nouns.",
+    "translation": "Her heart is as cold as ice."
   },
   {
     "id": 84,
     "jlpt_level": "N4",
     "grammar_point": "など (nado): such as, things like",
-    "sentence": "これ以上人生から学ぶことなどないと考えていた。"
+    "sentence": "これ以上人生から学ぶことなどないと考えていた。",
+    "short_explanation": "Indicates examples or implies 'and so on', often used to downplay or generalize items in a list.",
+    "translation": "I thought there was nothing more to learn from life."
   },
   {
     "id": 85,
     "jlpt_level": "N4",
     "grammar_point": "ながら (nagara): while, during, as",
-    "sentence": "子どものころは誰もがバービー人形で遊びながら育ちますよね。"
+    "sentence": "子どものころは誰もがバービー人形で遊びながら育ちますよね。",
+    "short_explanation": "Indicates two actions occurring simultaneously, with the main action following 'nagara'.",
+    "translation": "When we were children, everyone grows up playing with Barbie dolls, right?"
   },
   {
     "id": 86,
     "jlpt_level": "N4",
     "grammar_point": "ないで (naide): without doing, don’t",
-    "sentence": "僕たちは誰にも気付かれないで村を出てきたんだ。"
+    "sentence": "僕たちは誰にも気付かれないで村を出てきたんだ。",
+    "short_explanation": "Indicates doing something without performing a preceding action, or a polite negative request.",
+    "translation": "We left the village without being noticed by anyone."
   },
   {
     "id": 87,
     "jlpt_level": "N4",
     "grammar_point": "なければいけない/なければならない (nakereba ikenai/nakereba naranai): must, have to",
-    "sentence": "だが私は行かなければならない。私を引きとめようとしても無駄だからね。"
+    "sentence": "だが私は行かなければならない。私を引きとめようとしても無駄だからね。",
+    "short_explanation": "Expresses obligation or necessity, meaning 'must' or 'have to' do something.",
+    "translation": "But I must go. It's useless to try to stop me."
   },
   {
     "id": 88,
     "jlpt_level": "N4",
     "grammar_point": "なくてはいけない/なくてはならない (nakutewa ikenai/nakutewa naranai): must, have to",
-    "sentence": "報告書を書き直さなくてはならない。"
+    "sentence": "報告書を書き直さなくてはならない。",
+    "short_explanation": "Expresses necessity or obligation, meaning 'must do' or 'have to do'.",
+    "translation": "I must rewrite the report."
   },
   {
     "id": 89,
     "jlpt_level": "N4",
     "grammar_point": "なくてもいい (nakute mo ii): don’t have to",
-    "sentence": "もうこの問題については考えなくていい。"
+    "sentence": "もうこの問題については考えなくていい。",
+    "short_explanation": "Indicates something is not necessary or optional; 'don't have to' do something.",
+    "translation": "You don't have to think about this problem anymore."
   },
   {
     "id": 90,
     "jlpt_level": "N4",
     "grammar_point": "なら (nara): if, in case, as for",
-    "sentence": "彼女を殺したいのなら、僕も殺しなさい！"
+    "sentence": "彼女を殺したいのなら、僕も殺しなさい！",
+    "short_explanation": "Indicates a conditional 'if' or topic 'as for', often based on prior context or assumption.",
+    "translation": "If you want to kill her, then kill me too!"
   },
   {
     "id": 91,
     "jlpt_level": "N4",
     "grammar_point": "なさい (nasai): command (order somebody to do something)",
-    "sentence": "元気を出しなさい。来週には京都に連れていってやろう。"
+    "sentence": "元気を出しなさい。来週には京都に連れていってやろう。",
+    "short_explanation": "なさい is a command form used to order someone to do something, often by a superior.",
+    "translation": "Cheer up. I'll take you to Kyoto next week."
   },
   {
     "id": 92,
     "jlpt_level": "N4",
     "grammar_point": "なさる (nasaru): to do (honorific)",
-    "sentence": "あまり期待なさらないでくださいよ。"
+    "sentence": "あまり期待なさらないでくださいよ。",
+    "short_explanation": "Honorific form of 'suru' (to do), used to show respect to the person performing the action.",
+    "translation": "Please don't expect too much."
   },
   {
     "id": 93,
     "jlpt_level": "N4",
     "grammar_point": "に気がつく (ni ki ga tsuku): to notice, to realize",
-    "sentence": "そのとき彼は、彼女が泣いているのに気がついた。"
+    "sentence": "そのとき彼は、彼女が泣いているのに気がついた。",
+    "short_explanation": "Indicates noticing or becoming aware of something, often suddenly or after not realizing before.",
+    "translation": "At that time, he noticed that she was crying."
   },
   {
     "id": 94,
     "jlpt_level": "N4",
     "grammar_point": "にくい (nikui): difficult, hard to",
-    "sentence": "悪い知らせって言いにくい。"
+    "sentence": "悪い知らせって言いにくい。",
+    "short_explanation": "Indicates an action is difficult or hard to do, attached to the verb stem.",
+    "translation": "It's hard to say bad news."
   },
   {
     "id": 95,
     "jlpt_level": "N4",
     "grammar_point": "に見える (ni mieru): to look, to seem",
-    "sentence": "私には、彼は少し腹を立てているように見えた。"
+    "sentence": "私には、彼は少し腹を立てているように見えた。",
+    "short_explanation": "Indicates how something appears or seems based on visual observation.",
+    "translation": "To me, he looked a little angry."
   },
   {
     "id": 96,
     "jlpt_level": "N4",
     "grammar_point": "のなかで (no naka de): in, among",
-    "sentence": "彼は俺に人生の中で一番の親友だ。"
+    "sentence": "彼は俺に人生の中で一番の親友だ。",
+    "short_explanation": "Indicates 'in' or 'among' a group or category, often used to specify the scope of comparison.",
+    "translation": "He is my best friend in life."
   },
   {
     "id": 97,
     "jlpt_level": "N4",
     "grammar_point": "のに(noni) - 1: in order to",
-    "sentence": "妹は顔を洗うのにすごく長い時間がかかります。"
+    "sentence": "妹は顔を洗うのにすごく長い時間がかかります。",
+    "short_explanation": "Indicates purpose or necessity for an action, meaning 'in order to' or 'for the purpose of.'",
+    "translation": "It takes my little sister a very long time to wash her face."
   },
   {
     "id": 98,
     "jlpt_level": "N4",
     "grammar_point": "のに (noni) - 2: although, in spite of",
-    "sentence": "冬が近づいているのに、食糧がない。"
+    "sentence": "冬が近づいているのに、食糧がない。",
+    "short_explanation": "Indicates a contradiction between two clauses, meaning 'although' or 'in spite of'.",
+    "translation": "Although winter is approaching, there is no food."
   },
   {
     "id": 99,
     "jlpt_level": "N4",
     "grammar_point": "のように / のような (no you ni/no you na): like, similar to",
-    "sentence": "彼の眼は錐のように、冷たく、そして鋭かった。"
+    "sentence": "彼の眼は錐のように、冷たく、そして鋭かった。",
+    "short_explanation": "Indicates something is similar to or resembles something else, like 'like' or 'similar to'.",
+    "translation": "His eyes were cold and sharp, like a drill."
   },
   {
     "id": 100,
     "jlpt_level": "N4",
     "grammar_point": "お～ください (o~kudasai): please do (honorific)",
-    "sentence": "ドアが閉まります。ご注意ください。"
+    "sentence": "ドアが閉まります。ご注意ください。",
+    "short_explanation": "Honorific form used to politely ask someone to do something, often in public announcements or formal contexts.",
+    "translation": "The door is closing. Please be careful."
   },
   {
     "id": 101,
     "jlpt_level": "N4",
     "grammar_point": "お～になる (o~ni naru): to do (honorific)",
-    "sentence": "いつ招待状をお出しになりますか？"
+    "sentence": "いつ招待状をお出しになりますか？",
+    "short_explanation": "Honorific form to show respect for someone's action, replacing ます form with お+verb stem+になる.",
+    "translation": "When will you send the invitation?"
   },
   {
     "id": 102,
     "jlpt_level": "N4",
     "grammar_point": "おきに (oki ni): repeated at intervals, every",
-    "sentence": "彼は一週間おきに問題を起こす生徒だ。"
+    "sentence": "彼は一週間おきに問題を起こす生徒だ。",
+    "short_explanation": "Indicates an action occurs at regular intervals of time or distance.",
+    "translation": "He is a student who causes trouble every week."
   },
   {
     "id": 103,
     "jlpt_level": "N4",
     "grammar_point": "終わる (owaru): to finish, to end",
-    "sentence": "話し終わると、記者たちの質問が殺到した。"
+    "sentence": "話し終わると、記者たちの質問が殺到した。",
+    "short_explanation": "終わる means 'to finish' or 'to end', indicating the completion of an action or event.",
+    "translation": "When I finished speaking, reporters' questions flooded in."
   },
   {
     "id": 104,
     "jlpt_level": "N4",
     "grammar_point": "られる (rareru) - 1: to be able to do something",
-    "sentence": "彼が酒に溺れて自殺するなんて信じられなかった。"
+    "sentence": "彼が酒に溺れて自殺するなんて信じられなかった。",
+    "short_explanation": "Indicates ability to do something, equivalent to 'can' or 'be able to'.",
+    "translation": "I couldn't believe that he drowned himself in alcohol and committed suicide."
   },
   {
     "id": 105,
     "jlpt_level": "N4",
     "grammar_point": "られる (rareru) - 2 (owaru): passive voice",
-    "sentence": "彼に無視されるのがこんなにつらいとは思わなかった。"
+    "sentence": "彼に無視されるのがこんなにつらいとは思わなかった。",
+    "short_explanation": "Indicates that the subject receives an action from someone, often implying a negative impact.",
+    "translation": "I didn't expect being ignored by him would be this painful."
   },
   {
     "id": 106,
     "jlpt_level": "N4",
     "grammar_point": "らしい (rashii): seems like",
-    "sentence": "どうも最近、物覚えがわるくなっているらしい。"
+    "sentence": "どうも最近、物覚えがわるくなっているらしい。",
+    "short_explanation": "Indicates hearsay or conjecture based on observed evidence, meaning 'seems like' or 'I hear that'.",
+    "translation": "It seems that my memory has been getting worse lately."
   },
   {
     "id": 107,
     "jlpt_level": "N4",
     "grammar_point": "さ (sa): [nominalizer for adjectives]",
-    "sentence": "あなたの強さは、どこから来ているのでしょうか？"
+    "sentence": "あなたの強さは、どこから来ているのでしょうか？",
+    "short_explanation": "Converts adjectives into nouns, like 'height' from 'tall' or 'strength' from 'strong'.",
+    "translation": "Where does your strength come from?"
   },
   {
     "id": 108,
     "jlpt_level": "N4",
     "grammar_point": "させる (saseru): to make/let somebody do something",
-    "sentence": "なぜかその人たちは、わたしを不安な気持にさせた。"
+    "sentence": "なぜかその人たちは、わたしを不安な気持にさせた。",
+    "short_explanation": "Causative form meaning to make or let someone do something.",
+    "translation": "For some reason, those people made me feel uneasy."
   },
   {
     "id": 109,
     "jlpt_level": "N4",
     "grammar_point": "させられる (saserareru): to be made to do something",
-    "sentence": "母は家計を支えるために高校をやめさせられた。"
+    "sentence": "母は家計を支えるために高校をやめさせられた。",
+    "short_explanation": "Indicates someone is forced or made to do something against their will.",
+    "translation": "I was forced to quit high school to support my family."
   },
   {
     "id": 110,
     "jlpt_level": "N4",
     "grammar_point": "さすが (sasuga): as one would expect",
-    "sentence": "さすがにこういうところには住みたくないな…"
+    "sentence": "さすがにこういうところには住みたくないな…",
+    "short_explanation": "Expresses that something is typical or expected, often with admiration or resignation.",
+    "translation": "As expected, I wouldn't want to live in a place like this..."
   },
   {
     "id": 111,
     "jlpt_level": "N4",
     "grammar_point": "し～し (shi~shi): and",
-    "sentence": "彼は勉強も運動もできるし背も高いし…"
+    "sentence": "彼は勉強も運動もできるし背も高いし…",
+    "short_explanation": "Lists multiple reasons or examples, implying 'and what's more' or 'not only... but also'.",
+    "translation": "He is good at both studying and sports, and he's tall too..."
   },
   {
     "id": 112,
     "jlpt_level": "N4",
     "grammar_point": "しか～ない (shika~nai): only, nothing but",
-    "sentence": "正しくやれるチャンスは１回しかないんだ。"
+    "sentence": "正しくやれるチャンスは１回しかないんだ。",
+    "short_explanation": "Indicates 'only' or 'nothing but', emphasizing limitation by combining with negative verb.",
+    "translation": "There is only one chance to do it right."
   },
   {
     "id": 113,
     "jlpt_level": "N4",
     "grammar_point": "そんなに (sonna ni): so, so much, like that",
-    "sentence": "わたしのことがそんなに大切？"
+    "sentence": "わたしのことがそんなに大切？",
+    "short_explanation": "Indicates degree or manner, meaning 'so much' or 'like that', often used in negative or question forms.",
+    "translation": "Am I so important to you?"
   },
   {
     "id": 114,
     "jlpt_level": "N4",
     "grammar_point": "それでも (sore demo): but still, and yet",
-    "sentence": "彼女は食べることに集中しようとした。それでも手は震え、顔は怒りで火照りはじめた。"
+    "sentence": "彼女は食べることに集中しようとした。それでも手は震え、顔は怒りで火照りはじめた。",
+    "short_explanation": "Means 'but still' or 'and yet', indicating a contrast where something happens despite a previous statement.",
+    "translation": "She tried to focus on eating. But still, her hands trembled and her face began to flush with anger."
   },
   {
     "id": 115,
     "jlpt_level": "N4",
     "grammar_point": "そうに/そうな (sou ni/sou na): seem, look like",
-    "sentence": "ヒカルだけがかなり快活そうな様子をしていました。"
+    "sentence": "ヒカルだけがかなり快活そうな様子をしていました。",
+    "short_explanation": "Used after verb stems or adjectives to indicate appearance or seeming based on observation.",
+    "translation": "Only Hikaru looked quite cheerful."
   },
   {
     "id": 116,
     "jlpt_level": "N4",
     "grammar_point": "そうだ (sou da) - 1: I heard that, it is said that",
-    "sentence": "うわさでは、橋本がついに職を得たそうだ。"
+    "sentence": "うわさでは、橋本がついに職を得たそうだ。",
+    "short_explanation": "Expresses hearsay or reported information, meaning 'I heard that' or 'it is said that'.",
+    "translation": "Rumor has it that Hashimoto finally got a job."
   },
   {
     "id": 117,
     "jlpt_level": "N4",
     "grammar_point": "そうだ (sou da) - 2: look like, seem",
-    "sentence": "彼はいまにも涙をこぼしそうだった。"
+    "sentence": "彼はいまにも涙をこぼしそうだった。",
+    "short_explanation": "Indicates an appearance or impression based on visual observation, like 'looks like' or 'seems'.",
+    "translation": "He looked as if he was about to cry at any moment."
   },
   {
     "id": 118,
     "jlpt_level": "N4",
     "grammar_point": "たばかり (ta bakari): just did, something just happened",
-    "sentence": "その話を聞いていたら、うちの娘が生まれたばかりのころを思い出した。"
+    "sentence": "その話を聞いていたら、うちの娘が生まれたばかりのころを思い出した。",
+    "short_explanation": "Indicates that an action has just been completed or a state has just occurred.",
+    "translation": "Listening to that story, I remembered the time when my daughter was just born."
   },
   {
     "id": 119,
     "jlpt_level": "N4",
     "grammar_point": "たがる (tagaru): to want to",
-    "sentence": "三浦さんは私の演説に目を通したがっていた。"
+    "sentence": "三浦さんは私の演説に目を通したがっていた。",
+    "short_explanation": "Indicates that someone else wants to do something, based on observable signs.",
+    "translation": "Miura wanted to look over my speech."
   },
   {
     "id": 120,
     "jlpt_level": "N4",
     "grammar_point": "たら (tara): if, after, when",
-    "sentence": "もしあなたがお亡くなりになったら、私も死にます。"
+    "sentence": "もしあなたがお亡くなりになったら、私も死にます。",
+    "short_explanation": "Indicates a conditional 'if', 'when', or 'after' something happens, often implying a cause-effect relationship.",
+    "translation": "If you die, I will die too."
   },
   {
     "id": 121,
     "jlpt_level": "N4",
     "grammar_point": "たらどう (tara dou): why don’t you?",
-    "sentence": "それはネットで調べたらどう？"
+    "sentence": "それはネットで調べたらどう？",
+    "short_explanation": "Used to suggest or recommend an action, meaning 'why don’t you...?'",
+    "translation": "Why don’t you look that up on the internet?"
   },
   {
     "id": 122,
     "jlpt_level": "N4",
     "grammar_point": "たり～たり (tari~tari): do such things like",
-    "sentence": "友達と一緒にご飯を食べたり話したりするのが楽しかったです。"
+    "sentence": "友達と一緒にご飯を食べたり話したりするのが楽しかったです。",
+    "short_explanation": "Lists examples of actions or states, implying 'do such things like...' without being exhaustive.",
+    "translation": "It was fun doing things like eating and talking with friends."
   },
   {
     "id": 123,
     "jlpt_level": "N4",
     "grammar_point": "たところ (ta tokoro): just finished doing, was just doing",
-    "sentence": "高木が、書斎のガラス戸から庭へ出たところだ。"
+    "sentence": "高木が、書斎のガラス戸から庭へ出たところだ。",
+    "short_explanation": "Indicates an action has just been completed or was just happening.",
+    "translation": "Takagi has just gone out into the garden from the glass door of the study."
   },
   {
     "id": 124,
     "jlpt_level": "N4",
     "grammar_point": "てあげる (te ageru): to do something for someone",
-    "sentence": "タクシーを拾ってあげようか？"
+    "sentence": "タクシーを拾ってあげようか？",
+    "short_explanation": "Indicates doing a favor or action for someone else, showing kindness or assistance.",
+    "translation": "Shall I hail a taxi for you?"
   },
   {
     "id": 125,
     "jlpt_level": "N4",
     "grammar_point": "てある (te aru): something is/has been done",
-    "sentence": "何かが骨のなかに差し込んである。"
+    "sentence": "何かが骨のなかに差し込んである。",
+    "short_explanation": "Indicates a state resulting from a purposeful action, often with an implied agent.",
+    "translation": "Something has been stuck into the bone."
   },
   {
     "id": 126,
     "jlpt_level": "N4",
     "grammar_point": "てほしい (te hoshii): I need you to",
-    "sentence": "向こうで待っていてほしい。あとから私も行く。"
+    "sentence": "向こうで待っていてほしい。あとから私も行く。",
+    "short_explanation": "Expresses a desire for someone else to do an action, like 'I want you to...'.",
+    "translation": "I need you to wait over there. I'll go later too."
   },
   {
     "id": 127,
     "jlpt_level": "N4",
     "grammar_point": "ていく (te iku): to go on, to start",
-    "sentence": "彼はもう一度詫びを述べて、別のドアから出て行った。"
+    "sentence": "彼はもう一度詫びを述べて、別のドアから出て行った。",
+    "short_explanation": "Indicates an action that continues or progresses away from the speaker.",
+    "translation": "He apologized once more and went out through another door."
   },
   {
     "id": 128,
     "jlpt_level": "N4",
     "grammar_point": "ているところ (teiru tokoro): in the process of doing",
-    "sentence": "どうぞお楽に、ちょうどお茶を淹れているところです。"
+    "sentence": "どうぞお楽に、ちょうどお茶を淹れているところです。",
+    "short_explanation": "Indicates an action is in progress, equivalent to 'in the middle of doing' something.",
+    "translation": "Please make yourself comfortable; I'm just in the middle of brewing tea."
   },
   {
     "id": 129,
     "jlpt_level": "N4",
     "grammar_point": "ていた (te ita): was doing something",
-    "sentence": "真純の眼はじっと地面を見つめていた。"
+    "sentence": "真純の眼はじっと地面を見つめていた。",
+    "short_explanation": "Indicates an ongoing action or state in the past, meaning 'was doing' or 'had been doing'.",
+    "translation": "Masumi's eyes were staring intently at the ground."
   },
   {
     "id": 130,
     "jlpt_level": "N4",
     "grammar_point": "ていただけませんか (te itadakemasen ka): could you please",
-    "sentence": "手紙ではとても説明できません。どうかお帰りになっていただけませんか？"
+    "sentence": "手紙ではとても説明できません。どうかお帰りになっていただけませんか？",
+    "short_explanation": "A polite request form meaning 'could you please do (something) for me?'",
+    "translation": "I can't explain it well in a letter. Could you please come back?"
   },
   {
     "id": 131,
     "jlpt_level": "N4",
     "grammar_point": "てくれる (te kureru): to do something for me or somebody's sake",
-    "sentence": "僕たちのためにいろいろ助けてくれたことは忘れない。"
+    "sentence": "僕たちのためにいろいろ助けてくれたことは忘れない。",
+    "short_explanation": "Indicates someone does an action for the speaker or their in-group, showing gratitude.",
+    "translation": "I won't forget how you helped us in many ways."
   },
   {
     "id": 132,
     "jlpt_level": "N4",
     "grammar_point": "てくる (te kuru): to come to, to become, to continue",
-    "sentence": "喉が渇いたから飲み物を買ってくる。"
+    "sentence": "喉が渇いたから飲み物を買ってくる。",
+    "short_explanation": "Indicates an action moving toward the speaker, a change starting, or a continuing process.",
+    "translation": "I'm thirsty, so I'll go buy a drink and come back."
   },
   {
     "id": 133,
     "jlpt_level": "N4",
     "grammar_point": "てみる (te miru): to try to",
-    "sentence": "ロック・クライミングにも挑戦してみたいです。"
+    "sentence": "ロック・クライミングにも挑戦してみたいです。",
+    "short_explanation": "Indicates trying an action to see what happens or how it goes.",
+    "translation": "I also want to try rock climbing."
   },
   {
     "id": 134,
     "jlpt_level": "N4",
     "grammar_point": "ても (temo): even if, even though",
-    "sentence": "自分が疲れていても、ひもじくても、わたしを看護して、食べさせてくれたわ。"
+    "sentence": "自分が疲れていても、ひもじくても、わたしを看護して、食べさせてくれたわ。",
+    "short_explanation": "Indicates 'even if' or 'even though', showing that the result is contrary to the condition.",
+    "translation": "Even if you were tired or hungry, you still nursed me and fed me."
   },
   {
     "id": 135,
     "jlpt_level": "N4",
     "grammar_point": "てもらう (te morau): to get somebody to do something",
-    "sentence": "あなたに認めてもらいたいんです。わたしとエミリーとの結婚を。"
+    "sentence": "あなたに認めてもらいたいんです。わたしとエミリーとの結婚を。",
+    "short_explanation": "Indicates receiving a favor; the subject gets someone to perform an action for them.",
+    "translation": "I want you to acknowledge my marriage with Emily."
   },
   {
     "id": 136,
     "jlpt_level": "N4",
     "grammar_point": "ておく (te oku): to do something in advance",
-    "sentence": "この恐ろしい秘密は、われわれ二人の胸中深く秘めておこう。"
+    "sentence": "この恐ろしい秘密は、われわれ二人の胸中深く秘めておこう。",
+    "short_explanation": "Indicates doing an action in preparation or for future convenience.",
+    "translation": "Let's keep this terrible secret deep in our hearts."
   },
   {
     "id": 137,
     "jlpt_level": "N4",
     "grammar_point": "てしまう (te shimau): to do something by accident, to finish completely",
-    "sentence": "いったい誰がこの致命的な秘密をあの子に知らせてしまったのか、私どもにはわかりませんでした。"
+    "sentence": "いったい誰がこの致命的な秘密をあの子に知らせてしまったのか、私どもにはわかりませんでした。",
+    "short_explanation": "Indicates an action is completed, often with regret, accident, or finality.",
+    "translation": "We had no idea who on earth had accidentally told that child this fatal secret."
   },
   {
     "id": 138,
     "jlpt_level": "N4",
     "grammar_point": "てすみません (te sumimasen): I’m sorry for",
-    "sentence": "この件についてだまっていてすみません。"
+    "sentence": "この件についてだまっていてすみません。",
+    "short_explanation": "Used to apologize for an action, connecting the verb in te-form with 'sumimasen' to express regret.",
+    "translation": "I'm sorry for staying silent about this matter."
   },
   {
     "id": 139,
     "jlpt_level": "N4",
     "grammar_point": "てよかった (te yokatta): I’m glad that",
-    "sentence": "あなたが早めに席を予約してくれてよかった。"
+    "sentence": "あなたが早めに席を予約してくれてよかった。",
+    "short_explanation": "Expresses relief or happiness that something happened or was done.",
+    "translation": "I'm glad you reserved the seat early."
   },
   {
     "id": 140,
     "jlpt_level": "N4",
     "grammar_point": "と (to): if, when",
-    "sentence": "この手紙を朗読すると、詩的に聞こえませんか？"
+    "sentence": "この手紙を朗読すると、詩的に聞こえませんか？",
+    "short_explanation": "Indicates a natural or inevitable result when one action or condition occurs.",
+    "translation": "When you read this letter aloud, doesn't it sound poetic?"
   },
   {
     "id": 141,
     "jlpt_level": "N4",
     "grammar_point": "と～と、どちらが (to~to, dochira ga): which one",
-    "sentence": "日本語と英語とどちらが難しいですか。"
+    "sentence": "日本語と英語とどちらが難しいですか。",
+    "short_explanation": "Used to ask which of two items is more something.",
+    "translation": "Which is more difficult, Japanese or English?"
   },
   {
     "id": 142,
     "jlpt_level": "N4",
     "grammar_point": "ということ (to iu koto): [changes a sentence or phrase into a Noun]",
-    "sentence": "彼が金持だということが一般に知れ渡る。"
+    "sentence": "彼が金持だということが一般に知れ渡る。",
+    "short_explanation": "Nominalizes a sentence or phrase, turning it into a noun clause meaning 'the fact that...' or 'that...'.",
+    "translation": "The fact that he is rich became widely known."
   },
   {
     "id": 143,
     "jlpt_level": "N4",
     "grammar_point": "と言ってもいい (to itte mo ii): you could say, you might say",
-    "sentence": "そんな事は、ほとんど不可能といってもいいが…"
+    "sentence": "そんな事は、ほとんど不可能といってもいいが…",
+    "short_explanation": "Indicates that something can be said or considered as such, often with slight reservation.",
+    "translation": "You could say that such a thing is almost impossible, but..."
   },
   {
     "id": 144,
     "jlpt_level": "N4",
     "grammar_point": "と言われている (to iwarete iru): it is said that…",
-    "sentence": "ベーカー通りにあるその古い屋敷には、よく幽霊が出ると言われている。"
+    "sentence": "ベーカー通りにあるその古い屋敷には、よく幽霊が出ると言われている。",
+    "short_explanation": "Expresses a general belief or common saying; 'it is said that...'",
+    "translation": "It is said that ghosts often appear in that old mansion on Baker Street."
   },
   {
     "id": 145,
     "jlpt_level": "N4",
     "grammar_point": "とか～とか (toka ~ toka): among other things, such as",
-    "sentence": "右とか左とかっていうのはよくわからなくなるもんですよ。"
+    "sentence": "右とか左とかっていうのはよくわからなくなるもんですよ。",
+    "short_explanation": "Lists examples among other things, implying there are more not mentioned.",
+    "translation": "Things like right and left are easy to get confused about."
   },
   {
     "id": 146,
     "jlpt_level": "N4",
     "grammar_point": "とき (toki): when, at the time",
-    "sentence": "じつは私もここに初めて入ったときには、同じことを考えましたよ。"
+    "sentence": "じつは私もここに初めて入ったときには、同じことを考えましたよ。",
+    "short_explanation": "Indicates the time or moment when an action or state occurs, meaning 'when' or 'at the time'.",
+    "translation": "Actually, I thought the same thing when I first entered here too."
   },
   {
     "id": 147,
     "jlpt_level": "N4",
     "grammar_point": "と聞いた (to kiita): I heard that",
-    "sentence": "たしかあなたはずっと独身だと聞きましたが…"
+    "sentence": "たしかあなたはずっと独身だと聞きましたが…",
+    "short_explanation": "Indicates hearsay, meaning 'I heard that' based on information from others.",
+    "translation": "I heard that you've been single for a long time, but..."
   },
   {
     "id": 148,
     "jlpt_level": "N4",
     "grammar_point": "ところ (tokoro): about to, on the verge of",
-    "sentence": "私たちはもうすぐ到着するところです。"
+    "sentence": "私たちはもうすぐ到着するところです。",
+    "short_explanation": "Indicates an action is about to happen or is on the verge of occurring.",
+    "translation": "We are about to arrive soon."
   },
   {
     "id": 149,
     "jlpt_level": "N4",
     "grammar_point": "と見える (to mieru): it seems that",
-    "sentence": "彼女のひどい仕打ちは、よっぽど深い印象をあなたの心にあたえたとみえるわ！"
+    "sentence": "彼女のひどい仕打ちは、よっぽど深い印象をあなたの心にあたえたとみえるわ！",
+    "short_explanation": "Indicates the speaker's inference or judgment based on observable evidence, meaning 'it seems that' or 'it appears that'.",
+    "translation": "It seems that her terrible treatment left a very deep impression on your heart!"
   },
   {
     "id": 150,
     "jlpt_level": "N4",
     "grammar_point": "と思う (to omou): to think",
-    "sentence": "オリンピックの後、いろんなことがぐんとよくなったと思う。"
+    "sentence": "オリンピックの後、いろんなことがぐんとよくなったと思う。",
+    "short_explanation": "Expresses the speaker's opinion or belief, meaning 'I think that...'.",
+    "translation": "I think that after the Olympics, various things got much better."
   },
   {
     "id": 151,
     "jlpt_level": "N4",
     "grammar_point": "続ける (tsuzukeru): to continue",
-    "sentence": "銃弾が重いドアノブをなおもたたきつづけている。"
+    "sentence": "銃弾が重いドアノブをなおもたたきつづけている。",
+    "short_explanation": "Indicates that an action or state continues over time, often with persistence.",
+    "translation": "The bullets continue to strike the heavy doorknob."
   },
   {
     "id": 152,
     "jlpt_level": "N4",
     "grammar_point": "やすい (yasui): easy to, likely to",
-    "sentence": "お互いへの信頼があれば、取引はずっと進めやすくなる。"
+    "sentence": "お互いへの信頼があれば、取引はずっと進めやすくなる。",
+    "short_explanation": "Attach to verb stem to mean 'easy to do' or 'likely to happen'.",
+    "translation": "If there is mutual trust, business transactions become much easier to proceed."
   },
   {
     "id": 153,
     "jlpt_level": "N4",
     "grammar_point": "より (yori): more than",
-    "sentence": "とても内気だったけど、芯はわたしよりずっと強い人だった。"
+    "sentence": "とても内気だったけど、芯はわたしよりずっと強い人だった。",
+    "short_explanation": "Indicates comparison, meaning 'more than' or 'than'.",
+    "translation": "She was very shy, but her core was much stronger than mine."
   },
   {
     "id": 154,
     "jlpt_level": "N4",
     "grammar_point": "予定だ (yotei da): plan to, intend to",
-    "sentence": "今日、午前八時に飛行機で長野を出発する予定だ。"
+    "sentence": "今日、午前八時に飛行機で長野を出発する予定だ。",
+    "short_explanation": "Indicates a plan or intention to do something.",
+    "translation": "I plan to depart from Nagano by plane at 8 AM today."
   },
   {
     "id": 155,
     "jlpt_level": "N4",
     "grammar_point": "ようだ (you da): it seems that, it appears that",
-    "sentence": "いまの彼は審判を待つ罪人のようだ。"
+    "sentence": "いまの彼は審判を待つ罪人のようだ。",
+    "short_explanation": "Expresses conjecture or resemblance based on speaker's observation or feeling.",
+    "translation": "He now seems like a sinner awaiting judgment."
   },
   {
     "id": 156,
     "jlpt_level": "N4",
     "grammar_point": "ように/ような (you ni/you na): as, like",
-    "sentence": "栄介は逃げるようにして町を出ていった。"
+    "sentence": "栄介は逃げるようにして町を出ていった。",
+    "short_explanation": "Indicates similarity or manner, meaning 'like' or 'as if' something is the case.",
+    "translation": "Eisuke left town as if fleeing."
   },
   {
     "id": 157,
     "jlpt_level": "N4",
     "grammar_point": "ようになる (you ni naru): to reach the point that",
-    "sentence": "最近では、不愉快な思いはうまく頭から締め出せるようになった。"
+    "sentence": "最近では、不愉快な思いはうまく頭から締め出せるようになった。",
+    "short_explanation": "Indicates a change or development to a new state or ability, meaning 'to come to do' or 'reach the point where'.",
+    "translation": "Lately, I've reached the point where I can effectively shut out unpleasant thoughts from my mind."
   },
   {
     "id": 158,
     "jlpt_level": "N4",
     "grammar_point": "ようにする (you ni suru): to try to, to make sure that",
-    "sentence": "このプロジェクト、私に担当させてください。期待に沿うようにします。"
+    "sentence": "このプロジェクト、私に担当させてください。期待に沿うようにします。",
+    "short_explanation": "Expresses effort or intention to ensure a certain state or action is achieved.",
+    "translation": "Please let me take charge of this project. I'll make sure to meet your expectations."
   },
   {
     "id": 159,
     "jlpt_level": "N4",
     "grammar_point": "ようと思う (you to omou): I think I will… (I’m thinking of doing…)",
-    "sentence": "明日、ランチのあとで天文学の本を買おうと思う。"
+    "sentence": "明日、ランチのあとで天文学の本を買おうと思う。",
+    "short_explanation": "Expresses the speaker's intention or plan to do something, meaning 'I think I will...'.",
+    "translation": "I think I will buy an astronomy book after lunch tomorrow."
   },
   {
     "id": 160,
     "jlpt_level": "N4",
     "grammar_point": "全然 (zenzen): (not) at all",
-    "sentence": "ちょっと待ってくれ、ぼくには、そんなことはぜんぜん理解できないよ。"
+    "sentence": "ちょっと待ってくれ、ぼくには、そんなことはぜんぜん理解できないよ。",
+    "short_explanation": "Means '(not) at all', used with negative verbs to strongly negate something.",
+    "translation": "Wait a minute, I can't understand that at all."
   },
   {
     "id": 161,
     "jlpt_level": "N4",
     "grammar_point": "火事は住宅地に広がる前に消し止められた。",
-    "sentence": "ねえ、もうその話はやめよう。せっかくここまで来たんだから、もっと明るい話をしよう。"
+    "sentence": "ねえ、もうその話はやめよう。せっかくここまで来たんだから、もっと明るい話をしよう。",
+    "short_explanation": "Indicates an action was completed before a certain point, using 'before' to show timing.",
+    "translation": "Hey, let's stop talking about that. Since we've come this far, let's talk about something brighter."
   },
   {
     "id": 162,
     "jlpt_level": "N3",
     "grammar_point": "あまり (amari): so much... that",
-    "sentence": "驚きと安堵のあまり、しゃべることも忘れて、僕はできる限りの速さで彼のあとを追っていった。"
+    "sentence": "驚きと安堵のあまり、しゃべることも忘れて、僕はできる限りの速さで彼のあとを追っていった。",
+    "short_explanation": "Indicates that something is done to such an extreme degree that a certain result occurs.",
+    "translation": "So much from surprise and relief that I forgot to speak, I followed after him as fast as I could."
   },
   {
     "id": 163,
     "jlpt_level": "N3",
     "grammar_point": "あまりに (amari ni): so much... that, too...",
-    "sentence": "この農場主によると、不法入国者や麻薬密売人はあまりに簡単に国境を越えることができるのです。"
+    "sentence": "この農場主によると、不法入国者や麻薬密売人はあまりに簡単に国境を越えることができるのです。",
+    "short_explanation": "Indicates that something is excessive to the point of causing a result or consequence.",
+    "translation": "According to this farmer, illegal immigrants and drug traffickers can cross the border too easily."
   },
   {
     "id": 164,
     "jlpt_level": "N3",
     "grammar_point": "ば～ほど (ba ~ hodo): the more... the more",
-    "sentence": "「モナ・リザ」を見れば見るほど、誰もが不思議な心地に陥るものだ。"
+    "sentence": "「モナ・リザ」を見れば見るほど、誰もが不思議な心地に陥るものだ。",
+    "short_explanation": "Means 'the more X, the more Y', indicating that as one action increases, the result intensifies.",
+    "translation": "The more you look at the Mona Lisa, the more everyone falls into a mysterious feeling."
   },
   {
     "id": 165,
     "jlpt_level": "N3",
     "grammar_point": "ばいい (ba ii): should, can, it'd be good if",
-    "sentence": "東の方にどれくらい進めばいいのか、きみにはわかってるのかい？"
+    "sentence": "東の方にどれくらい進めばいいのか、きみにはわかってるのかい？",
+    "short_explanation": "Indicates that something is advisable or sufficient; 'it would be good if' or 'should'.",
+    "translation": "Do you know how far we should go east?"
   },
   {
     "id": 166,
     "jlpt_level": "N3",
     "grammar_point": "ばかり (bakari): only, nothing but",
-    "sentence": "タケシはふざけてばかりいるけど、仕事ではプロであり、心の温かい人です。"
+    "sentence": "タケシはふざけてばかりいるけど、仕事ではプロであり、心の温かい人です。",
+    "short_explanation": "Indicates that someone does nothing but a certain action, often with a sense of excess or limitation.",
+    "translation": "Takeshi is always fooling around, but he's a professional at work and a warm-hearted person."
   },
   {
     "id": 167,
     "jlpt_level": "N3",
     "grammar_point": "ばかりだ (bakari da): continue to",
-    "sentence": "胸に秘めた悲しみと怒りは大きくなるばかりだ。"
+    "sentence": "胸に秘めた悲しみと怒りは大きくなるばかりだ。",
+    "short_explanation": "Indicates that something continues to increase or progress in one direction.",
+    "translation": "The sadness and anger hidden in my heart continue to grow."
   },
   {
     "id": 168,
     "jlpt_level": "N3",
     "grammar_point": "ばかりでなく (bakari denaku): not only... but also, as well as",
-    "sentence": "これは市の財政にとって損失であるばかりでなく、市の重要地区に醜い傷を残し、深刻な環境悪化をもたらしていただろう。"
+    "sentence": "これは市の財政にとって損失であるばかりでなく、市の重要地区に醜い傷を残し、深刻な環境悪化をもたらしていただろう。",
+    "short_explanation": "Means 'not only... but also', used to add another related point or fact.",
+    "translation": "This would have not only been a loss for the city's finances, but also left an ugly scar in an important district and caused serious environmental degradation."
   },
   {
     "id": 169,
     "jlpt_level": "N3",
     "grammar_point": "ばかりに (bakari ni): because, on account of",
-    "sentence": "実力のある女性は、苦境に陥っていることを人に知られたくないばかりに助けを求められないことがあるようだ。"
+    "sentence": "実力のある女性は、苦境に陥っていることを人に知られたくないばかりに助けを求められないことがあるようだ。",
+    "short_explanation": "Indicates that something happens solely because of a specific reason, often with regret.",
+    "translation": "It seems that capable women sometimes cannot ask for help because they don't want others to know they are in trouble."
   },
   {
     "id": 170,
     "jlpt_level": "N3",
     "grammar_point": "ばよかった (ba yokatta): should have, it would have been better if",
-    "sentence": "君がもっと早くそのことを言ってくれればよかったな。そしたら、途中もっと気をつけたかもしれない。"
+    "sentence": "君がもっと早くそのことを言ってくれればよかったな。そしたら、途中もっと気をつけたかもしれない。",
+    "short_explanation": "Expresses regret that something was not done, meaning 'should have' or 'it would have been better if'.",
+    "translation": "I wish you had told me that sooner. Then, I might have been more careful along the way."
   },
   {
     "id": 171,
     "jlpt_level": "N3",
     "grammar_point": "べき (beki): must do, should do",
-    "sentence": "こうしたことはずっと前にやるべきだったわね。"
+    "sentence": "こうしたことはずっと前にやるべきだったわね。",
+    "short_explanation": "Indicates obligation or strong recommendation to do something. Means 'should' or 'must'.",
+    "translation": "We should have done this a long time ago."
   },
   {
     "id": 172,
     "jlpt_level": "N3",
     "grammar_point": "べきではない (beki dewa nai): must not do, should not do",
-    "sentence": "本来こんなことを書き送るべきではないだろう。考えてもいけない。"
+    "sentence": "本来こんなことを書き送るべきではないだろう。考えてもいけない。",
+    "short_explanation": "Indicates that something should not be done, expressing moral obligation or strong advice against an action.",
+    "translation": "I probably should not be writing and sending something like this. I must not even think about it."
   },
   {
     "id": 173,
     "jlpt_level": "N3",
     "grammar_point": "べつに～ない (betsu ni ~ nai): not really, not particularly",
-    "sentence": "どうせいずれは話しなくちゃならないね。わたしべつに恥かしいことだとは思っていないの。"
+    "sentence": "どうせいずれは話しなくちゃならないね。わたしべつに恥かしいことだとは思っていないの。",
+    "short_explanation": "Used with a negative verb to mean 'not particularly' or 'not really', softening a denial or lack of interest.",
+    "translation": "We'll have to talk about it eventually anyway. I don't really think it's embarrassing."
   },
   {
     "id": 174,
     "jlpt_level": "N3",
     "grammar_point": "中 (chuu/juu): during, throughout",
-    "sentence": "しばらくまえ、私の留守中になにか起こったようなことを言っていたね。"
+    "sentence": "しばらくまえ、私の留守中になにか起こったようなことを言っていたね。",
+    "short_explanation": "Indicates 'during' or 'throughout' a period or activity, depending on reading (chuu vs juu).",
+    "translation": "A while ago, you said something seemed to have happened while I was away."
   },
   {
     "id": 175,
     "jlpt_level": "N3",
     "grammar_point": "だけ (dake) – 2: as much as",
-    "sentence": "決戦大会では、一人の候補者が過半数を得るまで、代議員たちが何回でも必要なだけ投票を行います。"
+    "sentence": "決戦大会では、一人の候補者が過半数を得るまで、代議員たちが何回でも必要なだけ投票を行います。",
+    "short_explanation": "Indicates doing something to the extent or amount needed or desired.",
+    "translation": "In the final convention, delegates vote as many times as necessary until one candidate obtains a majority."
   },
   {
     "id": 176,
     "jlpt_level": "N3",
     "grammar_point": "だらけ (darake): covered all over in, full of",
-    "sentence": "ばかね、船中を血だらけにしたいとでもいうの？"
+    "sentence": "ばかね、船中を血だらけにしたいとでもいうの？",
+    "short_explanation": "Indicates something is covered or filled with something, often negative or messy.",
+    "translation": "You idiot, are you trying to get the whole ship covered in blood?"
   },
   {
     "id": 177,
     "jlpt_level": "N3",
     "grammar_point": "どころか (dokoro ka): far from, anything but",
-    "sentence": "わたしはほしいものがすべて手に入ると期待するどころか、すべてを失うのを恐れている。"
+    "sentence": "わたしはほしいものがすべて手に入ると期待するどころか、すべてを失うのを恐れている。",
+    "short_explanation": "Indicates that reality is the opposite of what is expected, meaning 'far from' or 'anything but'.",
+    "translation": "Far from expecting to get everything I want, I fear losing everything."
   },
   {
     "id": 178,
     "jlpt_level": "N3",
     "grammar_point": "どんなに～ても (donna ni ~ temo): no matter how",
-    "sentence": "どんなに素晴らしい商品を作っても、世間に知られなければ価値はないに等しい。"
+    "sentence": "どんなに素晴らしい商品を作っても、世間に知られなければ価値はないに等しい。",
+    "short_explanation": "Means 'no matter how (much/well) ~, even if ~' to express that regardless of degree, the result is unchanged.",
+    "translation": "No matter how wonderful a product you make, if it is not known to the world, it is as good as worthless."
   },
   {
     "id": 179,
     "jlpt_level": "N3",
     "grammar_point": "ふりをする (furi o suru): to pretend, to act as if",
-    "sentence": "わたしはいつもテレビをつけて、それを見ているふりをしていた。"
+    "sentence": "わたしはいつもテレビをつけて、それを見ているふりをしていた。",
+    "short_explanation": "Means 'to pretend' or 'act as if', indicating feigning a state or action.",
+    "translation": "I always turned on the TV and pretended to be watching it."
   },
   {
     "id": 180,
     "jlpt_level": "N3",
     "grammar_point": "がち (gachi): apt to do, tend to do",
-    "sentence": "私のようなベビーブーム世代は、生活を仕事とそれ以外に分けたがり、同僚との付き合いは避けがちです。"
+    "sentence": "私のようなベビーブーム世代は、生活を仕事とそれ以外に分けたがり、同僚との付き合いは避けがちです。",
+    "short_explanation": "Indicates a tendency or habit to do something, often negative.",
+    "translation": "People of the baby boom generation like me tend to divide life into work and everything else, and are apt to avoid socializing with colleagues."
   },
   {
     "id": 181,
     "jlpt_level": "N3",
     "grammar_point": "がたい (gatai): hard to, difficult to",
-    "sentence": "彼がそんな質問をするというのは信じがたかった。"
+    "sentence": "彼がそんな質問をするというのは信じがたかった。",
+    "short_explanation": "Indicates that something is difficult or hard to do, often due to emotional or psychological reasons.",
+    "translation": "It was hard to believe that he would ask such a question."
   },
   {
     "id": 182,
     "jlpt_level": "N3",
     "grammar_point": "ぎみ (gimi): -like, -looking",
-    "sentence": "アヤコは、顔は紫色で、日に焼けて、過労気味なのだ。"
+    "sentence": "アヤコは、顔は紫色で、日に焼けて、過労気味なのだ。",
+    "short_explanation": "Indicates a slight tendency or state of being somewhat like something, often with negative nuance.",
+    "translation": "Ayako's face is purple, sunburned, and looks somewhat overworked."
   },
   {
     "id": 183,
     "jlpt_level": "N3",
     "grammar_point": "ほど (hodo): the more, to the extent that, so much... that",
-    "sentence": "一生分の旅行を合わせても、パイロットとして過ごす数ヶ月もしくは１年間ほど多くの場所を訪れることは、できないと思います。"
+    "sentence": "一生分の旅行を合わせても、パイロットとして過ごす数ヶ月もしくは１年間ほど多くの場所を訪れることは、できないと思います。",
+    "short_explanation": "Indicates extent or degree, often meaning 'to the point that' or 'the more...the more.'",
+    "translation": "I think even if you combined all the travel in a lifetime, you couldn't visit as many places as a pilot does in a few months or a year."
   },
   {
     "id": 184,
     "jlpt_level": "N3",
     "grammar_point": "ほど～ない (hodo ~ nai): is not as... as",
-    "sentence": "その日ほど、彼のそばで仕えているのが誇らしいことはなかった。"
+    "sentence": "その日ほど、彼のそばで仕えているのが誇らしいことはなかった。",
+    "short_explanation": "Indicates that something is not as much as something else; compares two things, showing lesser degree.",
+    "translation": "There was no day when I was as proud to serve by his side as that day."
   },
   {
     "id": 185,
     "jlpt_level": "N3",
     "grammar_point": "いくら～ても (ikura ~ temo): no matter how",
-    "sentence": "私たちがいくら考えごとを頭から追い払おうとしても、体はメッセージを受け取っている。"
+    "sentence": "私たちがいくら考えごとを頭から追い払おうとしても、体はメッセージを受け取っている。",
+    "short_explanation": "Means 'no matter how much you do X, result Y still happens' or 'even if you do X, Y remains unchanged.'",
+    "translation": "No matter how much we try to drive thoughts out of our heads, our bodies are receiving the message."
   },
   {
     "id": 186,
     "jlpt_level": "N3",
     "grammar_point": "一方だ (ippou da): more and more, continue to",
-    "sentence": "ここには空アパートがたくさんできており、時とともにその数は増える一方だ。"
+    "sentence": "ここには空アパートがたくさんできており、時とともにその数は増える一方だ。",
+    "short_explanation": "Indicates a continuous increase or change in one direction, often negative.",
+    "translation": "There are many empty apartments here, and their number continues to increase over time."
   },
   {
     "id": 187,
     "jlpt_level": "N3",
     "grammar_point": "一方で (ippou de): on one hand, on the other hand",
-    "sentence": "光熱費、人件費、メンテナンス費などが着々と上がる一方で、市は家賃の値上げを禁じた。"
+    "sentence": "光熱費、人件費、メンテナンス費などが着々と上がる一方で、市は家賃の値上げを禁じた。",
+    "short_explanation": "Used to contrast two opposing facts or situations, meaning 'on one hand... on the other hand'.",
+    "translation": "On one hand, utility costs, labor costs, and maintenance fees are steadily rising, but on the other hand, the city has prohibited rent increases."
   },
   {
     "id": 188,
     "jlpt_level": "N3",
     "grammar_point": "かけ (kake): half-, not yet finished",
-    "sentence": "彼は冷めてしまった食べかけのパイをようやく口に入れた。"
+    "sentence": "彼は冷めてしまった食べかけのパイをようやく口に入れた。",
+    "short_explanation": "Indicates an action is incomplete or half-done, often with a sense of something left unfinished.",
+    "translation": "He finally put the half-eaten pie that had gone cold into his mouth."
   },
   {
     "id": 189,
     "jlpt_level": "N3",
     "grammar_point": "から言うと/から言えば/から言って (kara iu to/kara ieba/kara to itte): in terms of, from",
-    "sentence": "世間の認識という点からいえば、私の立場は弱かった。"
+    "sentence": "世間の認識という点からいえば、私の立場は弱かった。",
+    "short_explanation": "Indicates viewpoint or basis for judgment, meaning 'from the perspective of' or 'judging from'.",
+    "translation": "From the perspective of public perception, my position was weak."
   },
   {
     "id": 190,
     "jlpt_level": "N3",
     "grammar_point": "代わりに (kawari ni): instead of, in exchange for",
-    "sentence": "彼は靴ひもを結ぶかわりに、ポケットから何かを取り出し、床においていた。"
+    "sentence": "彼は靴ひもを結ぶかわりに、ポケットから何かを取り出し、床においていた。",
+    "short_explanation": "Indicates doing something instead of or in exchange for another action.",
+    "translation": "Instead of tying his shoelaces, he took something out of his pocket and placed it on the floor."
   },
   {
     "id": 191,
     "jlpt_level": "N3",
     "grammar_point": "っけ (kke): what is... again?",
-    "sentence": "チケットはどうしたかしら？あなたが持っていたんだったっけ、それとも私？"
+    "sentence": "チケットはどうしたかしら？あなたが持っていたんだったっけ、それとも私？",
+    "short_explanation": "Used to confirm or recall something uncertain, like 'was it... again?'",
+    "translation": "What happened to the ticket? Was it you who had it, or me?"
   },
   {
     "id": 192,
     "jlpt_level": "N3",
     "grammar_point": "決して～ない (kesshite ~ nai): never, by no means",
-    "sentence": "もし家庭が民主的ではなかったら、決して民主的な社会は得られません。"
+    "sentence": "もし家庭が民主的ではなかったら、決して民主的な社会は得られません。",
+    "short_explanation": "Used with negative verbs to strongly emphasize 'never' or 'by no means'.",
+    "translation": "If families are not democratic, a democratic society can never be achieved."
   },
   {
     "id": 193,
     "jlpt_level": "N3",
     "grammar_point": "切る (kiru): to do something completely to the end",
-    "sentence": "数年前まであれほど人気をよんでいた町が、突然文字どおり冷え切ってしまった。"
+    "sentence": "数年前まであれほど人気をよんでいた町が、突然文字どおり冷え切ってしまった。",
+    "short_explanation": "Expresses doing an action thoroughly or completely to its end, often with intensity or finality.",
+    "translation": "The town that was so popular until a few years ago suddenly became completely cold, literally."
   },
   {
     "id": 194,
     "jlpt_level": "N3",
     "grammar_point": "切れない (kirenai): being too much to finish or complete",
-    "sentence": "わたしの感情はわたし自身の力では律しきれない。"
+    "sentence": "わたしの感情はわたし自身の力では律しきれない。",
+    "short_explanation": "Indicates something is too much to complete or handle fully, expressing inability to finish or manage.",
+    "translation": "My emotions cannot be controlled by my own power alone."
   },
   {
     "id": 195,
     "jlpt_level": "N3",
     "grammar_point": "きり (kiri): only, just, since, after",
-    "sentence": "翌朝、彼女はホテルを徒歩で出かけたきり、二度と姿を見せないのです。"
+    "sentence": "翌朝、彼女はホテルを徒歩で出かけたきり、二度と姿を見せないのです。",
+    "short_explanation": "Indicates that since an action occurred, nothing else has happened or only that action remains.",
+    "translation": "The next morning, she left the hotel on foot and was never seen again."
   },
   {
     "id": 196,
     "jlpt_level": "N3",
     "grammar_point": "こそ (koso): for sure (emphasize preceding word)",
-    "sentence": "これらのことを成し遂げる能力こそ、我々の国力を測るうえできわめて重要な物差しになるはずだ。"
+    "sentence": "これらのことを成し遂げる能力こそ、我々の国力を測るうえできわめて重要な物差しになるはずだ。",
+    "short_explanation": "Emphasizes the preceding word, meaning 'precisely' or 'for sure', highlighting its importance.",
+    "translation": "The ability to accomplish these things should be an extremely important yardstick for measuring our national power."
   },
   {
     "id": 197,
     "jlpt_level": "N3",
     "grammar_point": "こと (koto): (must) do",
-    "sentence": "書類の上でどんなによさそうに見える話でも、自分自身のカンに頼って判断すること。"
+    "sentence": "書類の上でどんなによさそうに見える話でも、自分自身のカンに頼って判断すること。",
+    "short_explanation": "Indicates that one must do something, often implying obligation or necessity based on context.",
+    "translation": "Even if a story looks good on paper, you must judge based on your own intuition."
   },
   {
     "id": 198,
     "jlpt_level": "N3",
     "grammar_point": "ことだ (koto da): should",
-    "sentence": "偏見にとらわれないことだ。わたしたちはみんな、理解していないものを恐れる。"
+    "sentence": "偏見にとらわれないことだ。わたしたちはみんな、理解していないものを恐れる。",
+    "short_explanation": "Expresses a strong suggestion or advice, meaning 'should' or 'ought to'.",
+    "translation": "You should not be prejudiced. We all fear what we don't understand."
   },
   {
     "id": 199,
     "jlpt_level": "N3",
     "grammar_point": "ことがある (koto ga aru): there are times when",
-    "sentence": "時々、彼女は結婚してキャリアを諦めたことを後悔することがある。"
+    "sentence": "時々、彼女は結婚してキャリアを諦めたことを後悔することがある。",
+    "short_explanation": "Indicates that something happens occasionally or from time to time.",
+    "translation": "Sometimes, she regrets having gotten married and given up her career."
   },
   {
     "id": 200,
     "jlpt_level": "N3",
     "grammar_point": "ことか (koto ka): how...! what...!",
-    "sentence": "あかあかともえる暖炉の明かりとぬくもりを、どんなに欲しいと願ったことか！"
+    "sentence": "あかあかともえる暖炉の明かりとぬくもりを、どんなに欲しいと願ったことか！",
+    "short_explanation": "Expresses strong emotion or emphasis, meaning 'how...!' or 'what...!'",
+    "translation": "How I wished for the bright, blazing light and warmth of a fireplace!"
   },
   {
     "id": 201,
     "jlpt_level": "N3",
     "grammar_point": "ことから (koto kara): from the fact that",
-    "sentence": "彼は父親が有名な作家であることから、範囲から特別な目で見られがちです。"
+    "sentence": "彼は父親が有名な作家であることから、範囲から特別な目で見られがちです。",
+    "short_explanation": "Indicates a reason or basis derived from a specific fact or situation.",
+    "translation": "Because his father is a famous writer, he tends to be viewed with special attention from the scope."
   },
   {
     "id": 202,
     "jlpt_level": "N3",
     "grammar_point": "ことに (koto ni): unusually, especially",
-    "sentence": "びっくりすることに、アメリカで今、ソフトウェエンジニアに次いで、２番目に人気の職業は、大学の先生なんだ。"
+    "sentence": "びっくりすることに、アメリカで今、ソフトウェエンジニアに次いで、２番目に人気の職業は、大学の先生なんだ。",
+    "short_explanation": "Indicates the speaker's emotional reaction to a fact, meaning 'it is (adjective) that...'",
+    "translation": "Surprisingly, the second most popular job in America right now, after software engineer, is university professor."
   },
   {
     "id": 203,
     "jlpt_level": "N3",
     "grammar_point": "ことになる (koto ni naru): it has been decided that",
-    "sentence": "アメリカの多くの若者も、１１月８日に初めて投票することになります。"
+    "sentence": "アメリカの多くの若者も、１１月８日に初めて投票することになります。",
+    "short_explanation": "Indicates a decision or conclusion has been reached, often by external circumstances or group consensus.",
+    "translation": "Many young Americans will also be voting for the first time on November 8th."
   },
   {
     "id": 204,
     "jlpt_level": "N3",
     "grammar_point": "ことにする (koto ni suru): to decide on",
-    "sentence": "両親は、無理があってもよくないと一年だけ飛び級させることにした。"
+    "sentence": "両親は、無理があってもよくないと一年だけ飛び級させることにした。",
+    "short_explanation": "Expresses a decision to do something, often after consideration.",
+    "translation": "My parents decided to let me skip a grade for just one year, thinking that pushing too hard wouldn't be good."
   },
   {
     "id": 205,
     "jlpt_level": "N3",
     "grammar_point": "ことはない (koto wa nai): there is no need to, never happens",
-    "sentence": "嫉妬することはないよ！ちょっとあなたをからかって、悲しみを軽くしてあげたかったのだ。"
+    "sentence": "嫉妬することはないよ！ちょっとあなたをからかって、悲しみを軽くしてあげたかったのだ。",
+    "short_explanation": "Indicates that there is no need to do something, or that something never happens.",
+    "translation": "There's no need to be jealous! I just wanted to tease you a little and lighten your sadness."
   },
   {
     "id": 206,
     "jlpt_level": "N3",
     "grammar_point": "くらい (kurai): to the extent that, so... that",
-    "sentence": "この部屋には恐らく、香港を動かしていくことができるぐらいのコンピューティング・パワーがあるでしょう。"
+    "sentence": "この部屋には恐らく、香港を動かしていくことができるぐらいのコンピューティング・パワーがあるでしょう。",
+    "short_explanation": "Indicates an extent or degree, often meaning 'to the point that' or 'so... that'.",
+    "translation": "This room probably has enough computing power to move Hong Kong."
   },
   {
     "id": 207,
     "jlpt_level": "N3",
     "grammar_point": "くせに (kuse ni): even though, and yet, despite",
-    "sentence": "なぜあなたは完全に立派な英語をお話しになることもあるくせに、そうでない時もあるのです？"
+    "sentence": "なぜあなたは完全に立派な英語をお話しになることもあるくせに、そうでない時もあるのです？",
+    "short_explanation": "Indicates a contradiction or criticism, meaning 'even though' or 'despite' something being true.",
+    "translation": "Why is it that even though you sometimes speak perfectly good English, there are times when you don't?"
   },
   {
     "id": 208,
     "jlpt_level": "N3",
     "grammar_point": "まま (mama): as it is",
-    "sentence": "彼の若々しい態度は、年を取っても変わらないままだ。"
+    "sentence": "彼の若々しい態度は、年を取っても変わらないままだ。",
+    "short_explanation": "Indicates that something remains unchanged or continues in its current state.",
+    "translation": "His youthful attitude remains unchanged even as he gets older."
   },
   {
     "id": 209,
     "jlpt_level": "N3",
     "grammar_point": "まるで (maru de): as if, as though",
-    "sentence": "彼らは急に立ち止まり、まるで木の影のように音もなく立ったまま、耳を傾けた。"
+    "sentence": "彼らは急に立ち止まり、まるで木の影のように音もなく立ったまま、耳を傾けた。",
+    "short_explanation": "Indicates something is like or as if something else, often used with figurative comparisons.",
+    "translation": "They suddenly stopped, stood silently like a tree's shadow, and listened."
   },
   {
     "id": 210,
     "jlpt_level": "N3",
     "grammar_point": "めったに～ない (metta ni ~ nai): hardly, rarely, seldom",
-    "sentence": "旅に出るまえの子どもは、あれこれ考えて興奮しているので、食がすすむことはめったにない。"
+    "sentence": "旅に出るまえの子どもは、あれこれ考えて興奮しているので、食がすすむことはめったにない。",
+    "short_explanation": "Means 'rarely' or 'hardly ever' when paired with a negative verb form.",
+    "translation": "Children before a trip are excited and thinking about this and that, so they rarely have an appetite."
   },
   {
     "id": 211,
     "jlpt_level": "N3",
     "grammar_point": "もの (mono): because (indicate reason or excuse)",
-    "sentence": "あやまることはないよ。君が悪いわけじゃないんだもの。"
+    "sentence": "あやまることはないよ。君が悪いわけじゃないんだもの。",
+    "short_explanation": "Indicates a reason or excuse, often subjective or emotional, like 'because' or 'it's because'.",
+    "translation": "You don't need to apologize. It's because it's not your fault."
   },
   {
     "id": 212,
     "jlpt_level": "N3",
     "grammar_point": "ものだ (mono da): used to do something, should do something",
-    "sentence": "私は言い訳だけはしたくないの。人間というのは一度言い訳を始めると、限りなく言い訳をしてしまうものだし。"
+    "sentence": "私は言い訳だけはしたくないの。人間というのは一度言い訳を始めると、限りなく言い訳をしてしまうものだし。",
+    "short_explanation": "Used to describe a general truth, natural tendency, or something that typically happens.",
+    "translation": "I don't want to make excuses. Once humans start making excuses, they tend to endlessly make them."
   },
   {
     "id": 213,
     "jlpt_level": "N3",
     "grammar_point": "もしかしたら (moshikashitara): perhaps, maybe",
-    "sentence": "もしかしたら私は彼と結婚するかもしれないのだ！"
+    "sentence": "もしかしたら私は彼と結婚するかもしれないのだ！",
+    "short_explanation": "Expresses uncertainty or possibility, meaning 'perhaps' or 'maybe', often paired with かもしれない.",
+    "translation": "Maybe I might marry him!"
   },
   {
     "id": 214,
     "jlpt_level": "N3",
     "grammar_point": "向き (muki): suitable for",
-    "sentence": "留学生向きの大学案内書が刊行された。"
+    "sentence": "留学生向きの大学案内書が刊行された。",
+    "short_explanation": "Indicates something is designed or suitable for a specific purpose or group.",
+    "translation": "A university guidebook suitable for international students was published."
   },
   {
     "id": 215,
     "jlpt_level": "N3",
     "grammar_point": "向け(muke): intended for, aimed at",
-    "sentence": "私たちは大企業向けのハイエンドなネット・ソリューションを供給するという事業計画をまとめました。"
+    "sentence": "私たちは大企業向けのハイエンドなネット・ソリューションを供給するという事業計画をまとめました。",
+    "short_explanation": "Indicates something is designed, intended, or aimed at a specific group or purpose.",
+    "translation": "We compiled a business plan to supply high-end network solutions aimed at large corporations."
   },
   {
     "id": 216,
     "jlpt_level": "N3",
     "grammar_point": "ながらも (nagara mo): but, although, despite",
-    "sentence": "「心配しないで」彼女は声を震わせながらも、力づけるように言った。"
+    "sentence": "「心配しないで」彼女は声を震わせながらも、力づけるように言った。",
+    "short_explanation": "Indicates a contrast: an action or state occurs despite a contradictory condition.",
+    "translation": "\"Don't worry,\" she said encouragingly, although her voice was trembling."
   },
   {
     "id": 217,
     "jlpt_level": "N3",
     "grammar_point": "ないことはない (nai koto wa nai): can, is not impossible",
-    "sentence": "わたしも留学したことがありますから、あなたの苦労が分からないことはありません。"
+    "sentence": "わたしも留学したことがありますから、あなたの苦労が分からないことはありません。",
+    "short_explanation": "Means 'it's not that...not', indicating something is possible or true to some extent.",
+    "translation": "Since I have also studied abroad, it's not that I don't understand your struggles."
   },
   {
     "id": 218,
     "jlpt_level": "N3",
     "grammar_point": "なんか / なんて (nanka / nante): such as, things like",
-    "sentence": "けど、こんなことになるなんて、誰が予想したでしょう？"
+    "sentence": "けど、こんなことになるなんて、誰が予想したでしょう？",
+    "short_explanation": "Indicates belittling, surprise, or emphasis, often meaning 'such as' or 'things like'.",
+    "translation": "But, who would have predicted that things would turn out like this?"
   },
   {
     "id": 219,
     "jlpt_level": "N3",
     "grammar_point": "なぜなら/なぜかというと (nazenara/naze ka to iu to): because, the reason is",
-    "sentence": "愛し合ってる者同士は喧嘩するものよ。なぜかというとお互いに相手をよくわかっていないからなの。よくわかったころにはすでに愛情はさめてるわ。"
+    "sentence": "愛し合ってる者同士は喧嘩するものよ。なぜかというとお互いに相手をよくわかっていないからなの。よくわかったころにはすでに愛情はさめてるわ。",
+    "short_explanation": "Explains a reason or cause, similar to 'because' in English, often used to justify a previous statement.",
+    "translation": "Lovers fight with each other. That's because they don't fully understand each other yet. By the time they do, the love has already cooled."
   },
   {
     "id": 220,
     "jlpt_level": "N3",
     "grammar_point": "んだって (ndatte): I heard that",
-    "sentence": "彼女、休みには会いに来るんだって。"
+    "sentence": "彼女、休みには会いに来るんだって。",
+    "short_explanation": "Indicates hearsay or reporting information someone else said, meaning 'I heard that.'",
+    "translation": "I heard that she will come to visit during her break."
   },
   {
     "id": 221,
     "jlpt_level": "N3",
     "grammar_point": "に違いない(ni chigai nai): I'm sure, no doubt that",
-    "sentence": "あそこには、この世の始源から見つかったことのないでっかい秘密が埋もれているに違いないぞ。"
+    "sentence": "あそこには、この世の始源から見つかったことのないでっかい秘密が埋もれているに違いないぞ。",
+    "short_explanation": "Expresses strong conviction or certainty that something is true, based on evidence or reasoning.",
+    "translation": "I'm sure a huge secret that has never been found since the beginning of this world is buried over there."
   },
   {
     "id": 222,
     "jlpt_level": "N3",
     "grammar_point": "にかけて (ni kakete): over (a period), through, concerning",
-    "sentence": "ＮＧＯのフリーダム・ハウスによれば、２００７年から２０１１年にかけて、アジアは世界において唯一、政治的な権利と市民の自由が着実に増している地域でもある。"
+    "sentence": "ＮＧＯのフリーダム・ハウスによれば、２００７年から２０１１年にかけて、アジアは世界において唯一、政治的な権利と市民の自由が着実に増している地域でもある。",
+    "short_explanation": "Indicates a range or span over time or space, meaning 'over a period' or 'through'.",
+    "translation": "According to the NGO Freedom House, from 2007 to 2011, Asia was also the only region in the world where political rights and civil liberties steadily increased."
   },
   {
     "id": 223,
     "jlpt_level": "N3",
     "grammar_point": "に関する / に関して (ni kansu ru / ni kanshite): related to",
-    "sentence": "２０世紀の日本を含む、立憲君主制を取る国のほとんどには、継承に関する正規の形式が存在します。"
+    "sentence": "２０世紀の日本を含む、立憲君主制を取る国のほとんどには、継承に関する正規の形式が存在します。",
+    "short_explanation": "Indicates 'regarding' or 'concerning' a topic, used to specify the subject of discussion.",
+    "translation": "In most countries with constitutional monarchy, including 20th-century Japan, there exist formal procedures regarding succession."
   },
   {
     "id": 224,
     "jlpt_level": "N3",
     "grammar_point": "にかわって (ni kawatte): in stead of, on behalf of",
-    "sentence": "彼は父親に代わって経営に携わるのは時間の問題だ。"
+    "sentence": "彼は父親に代わって経営に携わるのは時間の問題だ。",
+    "short_explanation": "Indicates acting or doing something in place of someone or something else.",
+    "translation": "It's only a matter of time before he takes part in management on behalf of his father."
   },
   {
     "id": 225,
     "jlpt_level": "N3",
     "grammar_point": "に比べて (ni kurabete): compared to",
-    "sentence": "アメリカでの生活は、日本に比べてどのような違いがありましたか？"
+    "sentence": "アメリカでの生活は、日本に比べてどのような違いがありましたか？",
+    "short_explanation": "Indicates comparison, meaning 'compared to' or 'in comparison with'.",
+    "translation": "How did life in America differ compared to Japan?"
   },
   {
     "id": 226,
     "jlpt_level": "N3",
     "grammar_point": "において/ における (ni oite / ni okeru): in, on, at, as for, regarding",
-    "sentence": "人々を統べる最高権威を有するのは誰かというのは、今日にあっても世界各地の社会において、いまだ決着のついていない論題です。"
+    "sentence": "人々を統べる最高権威を有するのは誰かというのは、今日にあっても世界各地の社会において、いまだ決着のついていない論題です。",
+    "short_explanation": "Indicates location, time, or context for an action or state, often formal.",
+    "translation": "The question of who holds supreme authority to govern people remains an unresolved issue in societies around the world even today."
   },
   {
     "id": 227,
     "jlpt_level": "N3",
     "grammar_point": "にしては (ni shite wa): for, considering it's",
-    "sentence": "彼は大学時代の体形のままとはいかないが、いまも引きしまったしなやかな肉体を保っていて、五十代の男にしては悪くない。"
+    "sentence": "彼は大学時代の体形のままとはいかないが、いまも引きしまったしなやかな肉体を保っていて、五十代の男にしては悪くない。",
+    "short_explanation": "Indicates that something is contrary to expectation given a certain standard or category.",
+    "translation": "He can't maintain his college physique, but he still keeps a toned, flexible body, which isn't bad for a man in his fifties."
   },
   {
     "id": 228,
     "jlpt_level": "N3",
     "grammar_point": "にしても (ni shite mo): even if",
-    "sentence": "パキスタンや米国、その他の国の影響と関与があったにしても、結局これはアフガニスタンの人々のあいだの戦争であり、彼らの国の将来がかかっている。"
+    "sentence": "パキスタンや米国、その他の国の影響と関与があったにしても、結局これはアフガニスタンの人々のあいだの戦争であり、彼らの国の将来がかかっている。",
+    "short_explanation": "Means 'even if' or 'granted that', indicating a concession or hypothetical condition.",
+    "translation": "Even if there was influence and involvement from Pakistan, the US, and other countries, in the end this is a war among the people of Afghanistan, and the future of their country is at stake."
   },
   {
     "id": 229,
     "jlpt_level": "N3",
     "grammar_point": "に対して (ni taishite): in contrast to, while, in regard to",
-    "sentence": "私たちの目標は、貧しい子どもたちの窮状に対して何か手を打つことだ。"
+    "sentence": "私たちの目標は、貧しい子どもたちの窮状に対して何か手を打つことだ。",
+    "short_explanation": "Indicates contrast or opposition between two things, or expresses 'toward/regarding' something.",
+    "translation": "Our goal is to take action regarding the plight of poor children."
   },
   {
     "id": 230,
     "jlpt_level": "N3",
     "grammar_point": "にとって (ni totte): to, for, concerning",
-    "sentence": "道路や電気、水道は、すべての都市にとって重要なインフラだ。"
+    "sentence": "道路や電気、水道は、すべての都市にとって重要なインフラだ。",
+    "short_explanation": "Indicates from the perspective or standpoint of someone or something, meaning 'for' or 'to'.",
+    "translation": "Roads, electricity, and water supply are important infrastructure for all cities."
   },
   {
     "id": 231,
     "jlpt_level": "N3",
     "grammar_point": "について (ni tsuite): concerning, regarding",
-    "sentence": "ほとんどの人がイギリスの地下鉄システムについて文句を言うね。"
+    "sentence": "ほとんどの人がイギリスの地下鉄システムについて文句を言うね。",
+    "short_explanation": "Indicates the topic or subject being discussed, equivalent to 'concerning' or 'regarding'.",
+    "translation": "Most people complain about the London Underground system, don't they?"
   },
   {
     "id": 232,
     "jlpt_level": "N3",
     "grammar_point": "につれ/につれて (ni tsure/ni tsurete): as... then",
-    "sentence": "タイの高齢化が進むにつれ、この国の高齢者にはより多くのこうした施設が必要になるでしょう。"
+    "sentence": "タイの高齢化が進むにつれ、この国の高齢者にはより多くのこうした施設が必要になるでしょう。",
+    "short_explanation": "Indicates that as one thing changes, another changes accordingly, like 'as... then...'.",
+    "translation": "As aging progresses in Thailand, more such facilities will be needed for the elderly in this country."
   },
   {
     "id": 233,
     "jlpt_level": "N3",
     "grammar_point": "によると / によれば (ni yoru to / ni yoreba): according to",
-    "sentence": "広まっていた噂によると、この男は数ヶ月前から異常な妄想に取り憑かれていたらしい。"
+    "sentence": "広まっていた噂によると、この男は数ヶ月前から異常な妄想に取り憑かれていたらしい。",
+    "short_explanation": "Indicates the source of information, meaning 'according to'.",
+    "translation": "According to widespread rumors, this man had been possessed by abnormal delusions since a few months ago."
   },
   {
     "id": 234,
     "jlpt_level": "N3",
     "grammar_point": "によって / による (ni yotte / ni yoru): by means of, due to",
-    "sentence": "選挙環境が、基本的自由や政治的権利の制限、厳しいメディア統制、市民社会に対する締め付けの強化によって、悪影響を受けていました。"
+    "sentence": "選挙環境が、基本的自由や政治的権利の制限、厳しいメディア統制、市民社会に対する締め付けの強化によって、悪影響を受けていました。",
+    "short_explanation": "Indicates means, cause, or agent; translates as 'by means of' or 'due to'.",
+    "translation": "The election environment was adversely affected by restrictions on basic freedoms and political rights, strict media control, and tightened constraints on civil society."
   },
   {
     "id": 235,
     "jlpt_level": "N3",
     "grammar_point": "間に/の間に (aida ni/no aida ni): while, during",
-    "sentence": "あれこれ計画を立てている間にいろんなことが起こるのが人生だ。"
+    "sentence": "あれこれ計画を立てている間にいろんなことが起こるのが人生だ。",
+    "short_explanation": "Indicates an action or event that occurs during a specific time period or while another action is ongoing.",
+    "translation": "Life is about various things happening while you're making all sorts of plans."
   },
   {
     "id": 236,
     "jlpt_level": "N3",
     "grammar_point": "をはじめ (o hajime): for example, starting with",
-    "sentence": "東京をはじめ、たくさんの大都会へ行ったこともあるのに、わが家ほどいいところはない。"
+    "sentence": "東京をはじめ、たくさんの大都会へ行ったこともあるのに、わが家ほどいいところはない。",
+    "short_explanation": "Indicates 'starting with' or 'for example', listing a primary example among others.",
+    "translation": "Even though I've been to many big cities, starting with Tokyo, there's no place as good as my home."
   },
   {
     "id": 237,
     "jlpt_level": "N3",
     "grammar_point": "おかげで (okage de): thanks to, because of",
-    "sentence": "こうした独自の体験のおかげで、世界を、違った、より想像力豊かな目で見られるようになったと思われますか？"
+    "sentence": "こうした独自の体験のおかげで、世界を、違った、より想像力豊かな目で見られるようになったと思われますか？",
+    "short_explanation": "Indicates that something positive happened due to someone or something's help or influence.",
+    "translation": "Do you think that thanks to these unique experiences, you have come to see the world with different, more imaginative eyes?"
   },
   {
     "id": 238,
     "jlpt_level": "N3",
     "grammar_point": "っぱなし (ppanashi): leaving something on, leaving something still in use",
-    "sentence": "私は夜になると片付けものをしながら、リビングのテレビを一時間から二時間つけっぱなしにしています。"
+    "sentence": "私は夜になると片付けものをしながら、リビングのテレビを一時間から二時間つけっぱなしにしています。",
+    "short_explanation": "Indicates leaving something in a state or doing something continuously without change.",
+    "translation": "In the evening, I leave the living room TV on for one to two hours while tidying up."
   },
   {
     "id": 239,
     "jlpt_level": "N3",
     "grammar_point": "っぽい (ppoi): -ish, -like",
-    "sentence": "めったに使わない部屋は、なにもかも湿っぽくなります。"
+    "sentence": "めったに使わない部屋は、なにもかも湿っぽくなります。",
+    "short_explanation": "Attached to nouns or verbs to indicate something has a certain quality or tendency, like '-ish' or '-like'.",
+    "translation": "Rooms that are rarely used become damp and musty."
   },
   {
     "id": 240,
     "jlpt_level": "N3",
     "grammar_point": "さえ (sae): even",
-    "sentence": "このドラマは、主演俳優の僕でさえも「続きが早く見たい！」と思うほどの脚本です。"
+    "sentence": "このドラマは、主演俳優の僕でさえも「続きが早く見たい！」と思うほどの脚本です。",
+    "short_explanation": "Indicates 'even', emphasizing an extreme or minimum example to imply others are similar.",
+    "translation": "This drama's script is so good that even I, the lead actor, think 'I want to see the continuation soon!'"
   },
   {
     "id": 241,
     "jlpt_level": "N3",
     "grammar_point": "さえ～ば (sae ~ ba): if only... then",
-    "sentence": "経営さえうまく行えば、この施設は莫大な利益をあげる可能性をもつ。"
+    "sentence": "経営さえうまく行えば、この施設は莫大な利益をあげる可能性をもつ。",
+    "short_explanation": "Indicates that if a specific condition is met, everything else will follow.",
+    "translation": "If only management goes well, this facility has the potential to generate enormous profits."
   },
   {
     "id": 242,
     "jlpt_level": "N3",
     "grammar_point": "最中で/最中に (saichuu de/saichuu ni): in the middle of",
-    "sentence": "危機の最中であっても、彼女は人々の声に耳を傾け、冷静さを保ち、すべての人に敬意を持って接します。"
+    "sentence": "危機の最中であっても、彼女は人々の声に耳を傾け、冷静さを保ち、すべての人に敬意を持って接します。",
+    "short_explanation": "Indicates being in the middle of an action or event, emphasizing ongoing state.",
+    "translation": "Even in the middle of a crisis, she listens to people's voices, remains calm, and treats everyone with respect."
   },
   {
     "id": 243,
     "jlpt_level": "N3",
     "grammar_point": "せいで (sei de): because of",
-    "sentence": "病院で投与された鎮静剤のせいで、思考も視界もぼやけていた。"
+    "sentence": "病院で投与された鎮静剤のせいで、思考も視界もぼやけていた。",
+    "short_explanation": "Indicates a negative cause or reason, often resulting in an undesirable outcome.",
+    "translation": "Because of the sedative administered at the hospital, both my thoughts and vision were blurred."
   },
   {
     "id": 244,
     "jlpt_level": "N3",
     "grammar_point": "次第 (shidai): as soon as, dependent upon",
-    "sentence": "お名前をお調べしたところ、特記事項がありまして、連絡がつきしだいシェリフにおつなぎすることになっています。"
+    "sentence": "お名前をお調べしたところ、特記事項がありまして、連絡がつきしだいシェリフにおつなぎすることになっています。",
+    "short_explanation": "Indicates 'as soon as' or 'depending on', showing immediate action upon condition.",
+    "translation": "After checking your name, there was a special note, and as soon as I can contact you, I will connect you to the sheriff."
   },
   {
     "id": 245,
     "jlpt_level": "N3",
     "grammar_point": "しかない (shika nai): have no choice but",
-    "sentence": "利益をあげるには経費を切り詰めるしかなく、ぜいたくが入り込める余地はない。"
+    "sentence": "利益をあげるには経費を切り詰めるしかなく、ぜいたくが入り込める余地はない。",
+    "short_explanation": "Expresses that there is no other option or choice but to do something.",
+    "translation": "To make a profit, we have no choice but to cut costs; there is no room for luxury."
   },
   {
     "id": 246,
     "jlpt_level": "N3",
     "grammar_point": "その結果 (sono kekka): as a result",
-    "sentence": "全然勉強をしなかった。その結果、入学試験に落ちてしまった。"
+    "sentence": "全然勉強をしなかった。その結果、入学試験に落ちてしまった。",
+    "short_explanation": "Indicates a cause-and-effect relationship, meaning 'as a result' or 'consequently'.",
+    "translation": "I didn't study at all. As a result, I failed the entrance exam."
   },
   {
     "id": 247,
     "jlpt_level": "N3",
     "grammar_point": "そうもない (sou mo nai): very unlikely to",
-    "sentence": "彼らが納得されて戦闘をやめるなど、起こりそうもない。"
+    "sentence": "彼らが納得されて戦闘をやめるなど、起こりそうもない。",
+    "short_explanation": "Indicates that something is extremely unlikely to happen or occur.",
+    "translation": "It is very unlikely that they will be convinced and stop fighting."
   },
   {
     "id": 248,
     "jlpt_level": "N3",
     "grammar_point": "たびに (tabi ni): each time, everytime, whenever",
-    "sentence": "自分の考えを正直に口にするたびに、みんなに驚かれたものだ。"
+    "sentence": "自分の考えを正直に口にするたびに、みんなに驚かれたものだ。",
+    "short_explanation": "Means 'each time/every time/whenever' something happens, indicating a repeated action or event.",
+    "translation": "Every time I honestly spoke my mind, people were surprised."
   },
   {
     "id": 249,
     "jlpt_level": "N3",
     "grammar_point": "ために (tame ni) 1: for, for the sake of, in order to",
-    "sentence": "国のために亡くなるのは永久に生きることだ。"
+    "sentence": "国のために亡くなるのは永久に生きることだ。",
+    "short_explanation": "Indicates purpose or benefit, meaning 'for the sake of' or 'in order to'.",
+    "translation": "Dying for one's country is to live forever."
   },
   {
     "id": 250,
     "jlpt_level": "N3",
     "grammar_point": "ために (tame ni) 2: because of, as a result of",
-    "sentence": "長引く干ばつのため、新鮮な青果は品不足だった。"
+    "sentence": "長引く干ばつのため、新鮮な青果は品不足だった。",
+    "short_explanation": "Indicates cause or reason, meaning 'because of' or 'due to' something.",
+    "translation": "Due to the prolonged drought, fresh produce was in short supply."
   },
   {
     "id": 251,
     "jlpt_level": "N3",
     "grammar_point": "たらいい/といい (tara ii / to ii): it would be nice if, should, I hope",
-    "sentence": "我々はアジアにおいて米国の利益のバランスをどうとったらいいのかを話し合った。"
+    "sentence": "我々はアジアにおいて米国の利益のバランスをどうとったらいいのかを話し合った。",
+    "short_explanation": "Expresses hope or suggestion that something would be good if it happens.",
+    "translation": "We discussed how to balance U.S. interests in Asia."
   },
   {
     "id": 252,
     "jlpt_level": "N3",
     "grammar_point": "たとえ～ても (tatoe ~ temo): even if... is the case",
-    "sentence": "このチャレンジは、たとえいまは大変に思えても、がんばって続けていくうちにだんだん楽になっていく。"
+    "sentence": "このチャレンジは、たとえいまは大変に思えても、がんばって続けていくうちにだんだん楽になっていく。",
+    "short_explanation": "Means 'even if' a hypothetical or extreme condition holds, the result remains unchanged.",
+    "translation": "Even if this challenge seems tough now, it will gradually become easier as you keep trying hard."
   },
   {
     "id": 253,
     "jlpt_level": "N3",
     "grammar_point": "たとたん (ta totan): just (now, at the moment), as soon as",
-    "sentence": "階段に兵士たちが現れた。猛然と上をめざしていたが、廊下の暗がりに老人の姿を認めたとたん、立ち止まった。"
+    "sentence": "階段に兵士たちが現れた。猛然と上をめざしていたが、廊下の暗がりに老人の姿を認めたとたん、立ち止まった。",
+    "short_explanation": "Indicates that as soon as one action occurs, another immediately follows, often unexpectedly.",
+    "translation": "Soldiers appeared on the stairs. They were charging upward, but as soon as they spotted an old man in the dark hallway, they stopped."
   },
   {
     "id": 254,
     "jlpt_level": "N3",
     "grammar_point": "てごらん (te goran): (please) try to, (please) look",
-    "sentence": "そのソファにでもかけてぜんぶうちあけてごらんなさい。"
+    "sentence": "そのソファにでもかけてぜんぶうちあけてごらんなさい。",
+    "short_explanation": "A soft command meaning 'try to do' or 'please look', used to request an action.",
+    "translation": "Try sitting on that sofa and tell me everything."
   },
   {
     "id": 255,
     "jlpt_level": "N3",
     "grammar_point": "てはじめて (te hajimete): not until, only after... did I",
-    "sentence": "いま、生まれて初めて、複雑な人間性というものに直面している。"
+    "sentence": "いま、生まれて初めて、複雑な人間性というものに直面している。",
+    "short_explanation": "Expresses that something is realized or happens only after a specific action or event.",
+    "translation": "Now, for the first time in my life, I am facing what is called complex human nature."
   },
   {
     "id": 256,
     "jlpt_level": "N3",
     "grammar_point": "てもかまわない (temo kamawanai): it doesn't matter if",
-    "sentence": "濡れてもかまわないならそれでいいが、Ｔシャツも脱いだほうがいい。"
+    "sentence": "濡れてもかまわないならそれでいいが、Ｔシャツも脱いだほうがいい。",
+    "short_explanation": "Indicates that something is acceptable or doesn't matter, often implying permission or no problem.",
+    "translation": "If you don't mind getting wet, that's fine, but you'd better take off your T-shirt too."
   },
   {
     "id": 257,
     "jlpt_level": "N3",
     "grammar_point": "といっても (to itte mo): although I say, although one might say",
-    "sentence": "私たちは夜の間どこかに隠れることを考えなくちゃ。いくら武装してるといっても、結局三人しかいないんだからね。"
+    "sentence": "私たちは夜の間どこかに隠れることを考えなくちゃ。いくら武装してるといっても、結局三人しかいないんだからね。",
+    "short_explanation": "Indicates that despite saying something, the reality is different or less significant.",
+    "translation": "We have to think about hiding somewhere at night. Although I say we're armed, in the end there are only three of us."
   },
   {
     "id": 258,
     "jlpt_level": "N3",
     "grammar_point": "という (to iu): called, named, as much as",
-    "sentence": "パイロットという職業で、いちばん好きなのはどんなことですか？"
+    "sentence": "パイロットという職業で、いちばん好きなのはどんなことですか？",
+    "short_explanation": "Indicates the name, title, or content of something, meaning 'called' or 'named'.",
+    "translation": "What do you like most about the job called pilot?"
   },
   {
     "id": 259,
     "jlpt_level": "N3",
     "grammar_point": "ということだ (to iu koto da): I've heard that, rumour has it that, it means that",
-    "sentence": "人生におけるわたしの目的は、完全に快適な状態で暮すということだ。"
+    "sentence": "人生におけるわたしの目的は、完全に快適な状態で暮すということだ。",
+    "short_explanation": "Indicates hearsay or rumor, meaning 'I've heard that' or 'it is said that'.",
+    "translation": "I've heard that my purpose in life is to live in a completely comfortable state."
   },
   {
     "id": 260,
     "jlpt_level": "N3",
     "grammar_point": "というのは (to iu nowa): means, is, because",
-    "sentence": "結婚しようと思う誰もが結婚できるというのは、とても大事なことです。"
+    "sentence": "結婚しようと思う誰もが結婚できるというのは、とても大事なことです。",
+    "short_explanation": "Defines or explains a term or concept, often meaning 'the thing called' or 'because'.",
+    "translation": "The fact that everyone who wants to get married can get married is a very important thing."
   },
   {
     "id": 261,
     "jlpt_level": "N3",
     "grammar_point": "というと/といえば (to iu to/to ieba): speaking of, if it were the case that",
-    "sentence": "五億円といえば、駅全体を立て直すことができるほどの金額だ。"
+    "sentence": "五億円といえば、駅全体を立て直すことができるほどの金額だ。",
+    "short_explanation": "Used to introduce a topic or remark based on something just mentioned, meaning 'speaking of' or 'if we talk about'.",
+    "translation": "Speaking of 500 million yen, it's an amount that can rebuild an entire train station."
   },
   {
     "id": 262,
     "jlpt_level": "N3",
     "grammar_point": "というより (to iu yori): rather than",
-    "sentence": "父はこの国と恋に落ちたんです。今や、イングランド人というより、日本人的だと思います、本当のところ。"
+    "sentence": "父はこの国と恋に落ちたんです。今や、イングランド人というより、日本人的だと思います、本当のところ。",
+    "short_explanation": "Means 'rather than' or 'more than', used to correct or refine a previous statement.",
+    "translation": "My father fell in love with this country. Now, I think he's more Japanese than English, to be honest."
   },
   {
     "id": 263,
     "jlpt_level": "N3",
     "grammar_point": "ところで (tokoro de): by the way",
-    "sentence": "ところで今日友達とボートを出す計画なんだ。いっしょに行かないか？"
+    "sentence": "ところで今日友達とボートを出す計画なんだ。いっしょに行かないか？",
+    "short_explanation": "Used to change the topic of conversation, similar to 'by the way' in English.",
+    "translation": "By the way, I'm planning to take out a boat with a friend today. Won't you come along?"
   },
   {
     "id": 264,
     "jlpt_level": "N3",
     "grammar_point": "ところが (tokoro ga): even so, however, even though",
-    "sentence": "私は戦いで死ぬことを求めました。ところが私は死なずに生き残り、戦闘は今も続いております。"
+    "sentence": "私は戦いで死ぬことを求めました。ところが私は死なずに生き残り、戦闘は今も続いております。",
+    "short_explanation": "Indicates a contrast or unexpected result, meaning 'however' or 'even though'.",
+    "translation": "I sought death in battle. However, I survived and the fighting continues even now."
   },
   {
     "id": 265,
     "jlpt_level": "N3",
     "grammar_point": "とおり (toori): in the way, the same as",
-    "sentence": "ご覧の通りあの馬はかなり高価な馬なんだ。"
+    "sentence": "ご覧の通りあの馬はかなり高価な馬なんだ。",
+    "short_explanation": "Indicates something is done in the same way or manner as something else, meaning 'just as' or 'the same as'.",
+    "translation": "As you can see, that horse is quite expensive."
   },
   {
     "id": 266,
     "jlpt_level": "N3",
     "grammar_point": "としたら / とすれば (to shitara / to sureba): if it were the case that, if we assume",
-    "sentence": "あなたには何の問題もない。もし問題があるとしたら、それは私の方だ。"
+    "sentence": "あなたには何の問題もない。もし問題があるとしたら、それは私の方だ。",
+    "short_explanation": "Expresses a hypothetical condition or assumption, meaning 'if it were the case that...'",
+    "translation": "You have no problems at all. If there is a problem, it's on my side."
   },
   {
     "id": 267,
     "jlpt_level": "N3",
     "grammar_point": "として (to shite): as (i.e. in the role of)",
-    "sentence": "Google の検索履歴はファイルとしてダウンロードすることも可能だ。"
+    "sentence": "Google の検索履歴はファイルとしてダウンロードすることも可能だ。",
+    "short_explanation": "Indicates the role, capacity, or function in which something or someone acts.",
+    "translation": "Google search history can also be downloaded as a file."
   },
   {
     "id": 268,
     "jlpt_level": "N3",
     "grammar_point": "とは限らない (towa kagiranai): not necessarily so, is not always true",
-    "sentence": "このような特質がより幸せな、あるいはより質の高い人生をもたらすとは限らない。"
+    "sentence": "このような特質がより幸せな、あるいはより質の高い人生をもたらすとは限らない。",
+    "short_explanation": "Means 'not necessarily' or 'it is not always the case that', indicating a possibility of exception.",
+    "translation": "Such traits do not necessarily lead to a happier or higher quality life."
   },
   {
     "id": 269,
     "jlpt_level": "N3",
     "grammar_point": "ついでに (tsuide ni): while you are at it, on the occasion",
-    "sentence": "ブログのおかげで人々はテレビに向かって叫ばなくてよくなり、ついでに意見をいう場が持っている。"
+    "sentence": "ブログのおかげで人々はテレビに向かって叫ばなくてよくなり、ついでに意見をいう場が持っている。",
+    "short_explanation": "Means 'while you are at it' or 'on the occasion of', used to do something additional during an action.",
+    "translation": "Thanks to blogs, people no longer have to shout at the TV, and while they're at it, they have a place to express their opinions."
   },
   {
     "id": 270,
     "jlpt_level": "N3",
     "grammar_point": "つまり (tsumari): in other words; that is to say",
-    "sentence": "それであなたもほんとにそうだと思っておいでなんですか、つまり宇宙人が存在すると？"
+    "sentence": "それであなたもほんとにそうだと思っておいでなんですか、つまり宇宙人が存在すると？",
+    "short_explanation": "Used to rephrase or summarize a previous statement, meaning 'in other words' or 'that is to say'.",
+    "translation": "So you really believe that, in other words, that aliens exist?"
   },
   {
     "id": 271,
     "jlpt_level": "N3",
     "grammar_point": "と共に (to tomo ni): together with",
-    "sentence": "聞き慣れた鈍いうなりとともに、いつもの冷気が押し寄せてきた。"
+    "sentence": "聞き慣れた鈍いうなりとともに、いつもの冷気が押し寄せてきた。",
+    "short_explanation": "Means 'together with' or 'along with', indicating two things happen simultaneously or accompany each other.",
+    "translation": "Along with the familiar dull roar, the usual cold air rushed in."
   },
   {
     "id": 272,
     "jlpt_level": "N3",
     "grammar_point": "うちに (uchi ni): while, before, doing",
-    "sentence": "朝早く出て飛行機で往復すれば、たぶん夜の早いうちに帰ってくることができるだろうと思う。"
+    "sentence": "朝早く出て飛行機で往復すれば、たぶん夜の早いうちに帰ってくることができるだろうと思う。",
+    "short_explanation": "Indicates an action occurs during a certain time period or before a state changes.",
+    "translation": "I think if I leave early in the morning and go round trip by plane, I can probably return home early in the evening."
   },
   {
     "id": 273,
     "jlpt_level": "N3",
     "grammar_point": "上で (ue de): after, when, in order to",
-    "sentence": "政治混沌としている中で、正しい決断、十分に物事をわかったうえでの決断を下すのは、難しいかもしれませんね。"
+    "sentence": "政治混沌としている中で、正しい決断、十分に物事をわかったうえでの決断を下すのは、難しいかもしれませんね。",
+    "short_explanation": "Indicates 'after doing something' or 'in the context of' a prior action or condition.",
+    "translation": "In the midst of political chaos, it may be difficult to make correct decisions, decisions made after fully understanding things."
   },
   {
     "id": 274,
     "jlpt_level": "N3",
     "grammar_point": "わけだ (wake da): for that reason, no wonder, as you'd expect",
-    "sentence": "時計の鐘の残響はすでに消えている。これで正式に遅刻したわけだ。"
+    "sentence": "時計の鐘の残響はすでに消えている。これで正式に遅刻したわけだ。",
+    "short_explanation": "Indicates a logical conclusion or reason, meaning 'it follows that' or 'no wonder'.",
+    "translation": "The echo of the clock bell has already faded. So that means I'm officially late."
   },
   {
     "id": 275,
     "jlpt_level": "N3",
     "grammar_point": "わけではない (wake dewa nai): it doesn't mean that, it is not the case",
-    "sentence": "私は彼を憎むわけではない。会いたくないだけだ。"
+    "sentence": "私は彼を憎むわけではない。会いたくないだけだ。",
+    "short_explanation": "Indicates that something is not necessarily the case, often used to deny a general assumption.",
+    "translation": "It doesn't mean that I hate him. I just don't want to see him."
   },
   {
     "id": 276,
     "jlpt_level": "N3",
     "grammar_point": "わけがない (wake ga nai): there is no way that",
-    "sentence": "誰か特定の人物に毒を盛ったという証明はされるわけがないのです。"
+    "sentence": "誰か特定の人物に毒を盛ったという証明はされるわけがないのです。",
+    "short_explanation": "Expresses strong conviction that something is impossible or cannot be true.",
+    "translation": "There is no way that proof of someone poisoning a specific person will be provided."
   },
   {
     "id": 277,
     "jlpt_level": "N3",
     "grammar_point": "わけにはいかない (wake niwa ikanai): must not, can't afford to",
-    "sentence": "その電話をかけたら、もう一緒にはいられない。私は巻き込まれるわけにはいかないの。"
+    "sentence": "その電話をかけたら、もう一緒にはいられない。私は巻き込まれるわけにはいかないの。",
+    "short_explanation": "Expresses that one cannot do something due to social or moral reasons; 'must not' or 'can't afford to'.",
+    "translation": "If I make that call, we can't be together anymore. I can't afford to get involved."
   },
   {
     "id": 278,
     "jlpt_level": "N3",
     "grammar_point": "わりに (wari ni): although, rather, unexpectedly",
-    "sentence": "団地の規模の割りに負債が少なく、家賃収入は年間一億円に達している。"
+    "sentence": "団地の規模の割りに負債が少なく、家賃収入は年間一億円に達している。",
+    "short_explanation": "Indicates that something is unexpected or contrary to what is anticipated based on a standard.",
+    "translation": "Although the housing complex is large, its debt is small, and annual rent income reaches 100 million yen."
   },
   {
     "id": 279,
     "jlpt_level": "N3",
     "grammar_point": "ような気がする (you na ki ga suru): have a feeling that, think that",
-    "sentence": "わたしはこれまでの人生で、いつもなんとか別な人間になろうとしていたような気がする。"
+    "sentence": "わたしはこれまでの人生で、いつもなんとか別な人間になろうとしていたような気がする。",
+    "short_explanation": "Expresses a vague feeling or impression that something is the case, often based on intuition.",
+    "translation": "I have a feeling that throughout my life, I was always trying to become a different person."
   },
   {
     "id": 280,
     "jlpt_level": "N3",
     "grammar_point": "ように (you ni): in order to, so that",
-    "sentence": "皆さん、寒い冬になりました。体調をくずさないように気をつけてください。"
+    "sentence": "皆さん、寒い冬になりました。体調をくずさないように気をつけてください。",
+    "short_explanation": "Expresses purpose or aim, meaning 'in order to' or 'so that' something happens.",
+    "translation": "Everyone, it has become a cold winter. Please take care so that you don't catch a cold."
   },
   {
     "id": 281,
     "jlpt_level": "N3",
     "grammar_point": "ようとする (you to suru): try to, be about to",
-    "sentence": "私たちが食卓をはなれようとしたとき、誰か戸をたたくものがあった。"
+    "sentence": "私たちが食卓をはなれようとしたとき、誰か戸をたたくものがあった。",
+    "short_explanation": "Expresses an attempt to do something or being on the verge of doing something.",
+    "translation": "When we were about to leave the table, someone knocked on the door."
   },
   {
     "id": 282,
     "jlpt_level": "N3",
     "grammar_point": "ようとしない (you to shinai): not try to, not make an effort to",
-    "sentence": "あの女は何ごとか知っているんだ。絶対にまちがいない。しかもあの女はいおうとしないんだ。"
+    "sentence": "あの女は何ごとか知っているんだ。絶対にまちがいない。しかもあの女はいおうとしないんだ。",
+    "short_explanation": "Indicates someone does not attempt or make an effort to do something.",
+    "translation": "That woman knows something. There's no doubt about it. And yet, she won't try to say it."
   },
   {
     "id": 283,
     "jlpt_level": "N3",
     "grammar_point": "ずに (zuni): without doing",
-    "sentence": "彼女は自分の目が信じられずに、三度もくり返し検査をした。"
+    "sentence": "彼女は自分の目が信じられずに、三度もくり返し検査をした。",
+    "short_explanation": "Means 'without doing' an action, indicating something is done while refraining from that action.",
+    "translation": "She repeated the test three times without believing her own eyes."
   },
   {
     "id": 284,
     "jlpt_level": "N3",
     "grammar_point": "ずにはいられない (zu niwa irarenai): can't help but feel, can't help but do",
-    "sentence": "それでも私はうれしく思わずにはいられない。ずいぶん長いことこんなにうれしく思ったことはないくらいだ。"
+    "sentence": "それでも私はうれしく思わずにはいられない。ずいぶん長いことこんなにうれしく思ったことはないくらいだ。",
+    "short_explanation": "Expresses inability to stop oneself from doing something, often due to strong emotion.",
+    "translation": "Even so, I can't help but feel happy. I haven't felt this happy in a long time."
   }
 ]

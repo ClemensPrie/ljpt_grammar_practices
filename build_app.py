@@ -2,7 +2,7 @@
 import json, csv, struct, zlib
 from pathlib import Path
 
-DIR = Path("/Workspace/Users/clemens.priessnitz@oebb.at/databricks_apps/test")
+DIR = Path(__file__).parent
 
 
 def make_png_icon(size, filepath):

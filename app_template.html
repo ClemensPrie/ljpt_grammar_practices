@@ -44,6 +44,22 @@ body{font-family:-apple-system,Helvetica Neue,sans-serif;background:#0f0f1a;colo
 @keyframes spin{to{transform:rotate(360deg)}}
 .hi{padding:12px;border-bottom:1px solid #2a2a4a;font-size:13px;cursor:pointer}.hi .hl{font-weight:600;color:#e94560}.hi .hj{color:#ccc;margin:4px 0}.hi .he{color:#8888aa;font-size:12px}
 .es{text-align:center;padding:60px 20px;color:#666688}.es .ic{font-size:48px;margin-bottom:12px}.es h3{font-size:18px;margin-bottom:8px;color:#8888aa}
+.gr-level{margin-bottom:24px;border:1px solid #2a2a4a;border-radius:10px;overflow:hidden}
+.gr-level summary{cursor:pointer;padding:14px 16px;background:#1a1a2e;font-weight:600;color:#e94560;user-select:none;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #2a2a4a}
+.gr-level summary:hover{background:#16213e}
+.gr-level[open]>summary{border-bottom:1px solid #e94560;background:rgba(233,69,96,0.1)}
+.gr-level[open]>summary::after{transform:rotate(180deg)}
+.gr-level summary::after{content:'⌄';transition:transform .2s}
+.gr-group{border-bottom:1px solid #2a2a4a;margin:0}
+.gr-group summary{cursor:pointer;padding:10px 20px;background:#0f0f1a;color:#8888aa;font-size:14px;font-weight:600;user-select:none}
+.gr-group summary:hover{background:rgba(233,69,96,0.05);color:#aaaacc}
+.gr-group[open]>summary{background:rgba(233,69,96,0.1);color:#e0e0e0;border-bottom:1px solid #2a2a4a}
+.gr-item{padding:12px 24px;border-bottom:1px solid #0f0f1a;background:#0a0a12}
+.gr-item:last-child{border-bottom:none}
+.gr-point{font-weight:600;color:#e94560;font-size:14px;margin-bottom:4px}
+.gr-explain{font-size:13px;color:#aaaacc;margin-bottom:6px;line-height:1.4}
+.gr-sent{font-size:14px;color:#e0e0e0;background:rgba(255,255,255,0.02);padding:8px 10px;border-radius:6px;margin-bottom:4px;line-height:1.5}
+.gr-trans{font-size:13px;color:#8888aa;padding-left:10px;border-left:2px solid #2a2a4a}
 ::-webkit-scrollbar{width:6px}input[type=password]{caret-color:#e94560}
 </style>
 </head>
@@ -54,6 +70,7 @@ body{font-family:-apple-system,Helvetica Neue,sans-serif;background:#0f0f1a;colo
 </div>
 <div class=tb>
   <button class=act data-t=gen>Generate</button>
+  <button data-t=ref>Grammar Ref</button>
   <button data-t=hist>History</button>
   <button data-t=set>Settings</button>
 </div>
@@ -82,6 +99,10 @@ body{font-family:-apple-system,Helvetica Neue,sans-serif;background:#0f0f1a;colo
     <button class=bclr id=clr>Clear</button>
   </div>
   <div id=res></div>
+</div>
+<div class=ct id=tab-ref style=display:none>
+  <h2 style="margin-bottom:20px;color:#e94560">Grammar Reference</h2>
+  <div id=gr-content></div>
 </div>
 <div class=ct id=tab-hist style=display:none>
   <div id=hl><div class=es><div class=ic>&#128203;</div><h3>No history yet</h3></div></div>
@@ -123,7 +144,8 @@ function rV(v){if(!v)return '';var word=String(v.word||v.kanji||v.expression||''
 function rS(r){var d=document.getElementById('res');var h='';if(!Array.isArray(r)){h+='<div class=rc><div class=m>Story</div><div class=jp>'+(r.text||'').replace(/\n/g,'<br>')+'</div>';if(r.translation)h+='<div class=en>'+r.translation.replace(/\n/g,'<br>')+'</div>';if(r.vocab&&r.vocab.length){h+='<div class=st>Vocabulary</div><div class=vl>';r.vocab.forEach(function(v){h+=rV(v)});h+='</div>'}if(r.grammars&&r.grammars.length){h+='<div class=st>Grammar</div><div class=gl>';r.grammars.forEach(function(g){h+='<span class=gi>'+g+'</span>'});h+='</div>'}h+='</div>'}else{r.forEach(function(s){h+='<div class=rc><div class=jp>'+(s.sentence||'')+'</div>';if(s.translation)h+='<div class=en>'+s.translation+'</div>';if(s.vocab&&s.vocab.length){h+='<div class=st>Vocabulary</div><div class=vl>';s.vocab.forEach(function(v){h+=rV(v)});h+='</div>'}if(s.grammar){h+='<div class=st>Grammar</div><div class=gl><span class=gi>'+s.grammar+'</span></div>'}h+='</div>'})}d.innerHTML=h}
 async function gen(){var b=document.getElementById('gen');var al=document.querySelector('.lg .act');if(!al)return;var l=al.getAttribute('data-l');var ck=document.querySelectorAll('#gc input:checked');var sl=[];ck.forEach(function(c){var f=G.find(function(g){return g.id===parseInt(c.value)});if(f)sl.push(f)});var c=parseInt(document.getElementById('cnt').value);var tr=document.getElementById('trans').checked;var stl=parseInt(document.getElementById('stl').value)||15;var md=curMode;b.disabled=true;b.textContent='...';document.getElementById('res').innerHTML='<div class=lod><div class=sp></div><p>Generating...</p></div>';try{var p=bP(l,sl,c,tr,md,stl);var r=await cA(p);rS(r);var hr=md==='t'?[{sentence:r.text||'',translation:r.translation||'',grammar:(r.grammars||[]).join(', '),vocab:r.vocab||[]}]:(Array.isArray(r)?r.slice(0,10):[r]);H.push({timestamp:new Date().toISOString(),level:l,mode:md,count:md==='t'?1:r.length,grammarCount:sl.length||'random',results:hr});sH()}catch(e){document.getElementById('res').innerHTML='<div class=rc style=border-color:#e94560><div class=m>Error</div><div style=color:#e94560>'+e.message+'</div></div>'}finally{b.disabled=false;b.textContent='Generate'}}
 function bGC(l){var c=document.getElementById('gc');c.innerHTML=gG(l).map(function(g){return '<label><input type=checkbox value='+g.id+'><span>'+g.grammar_point+'</span><span class=cb>'+g.sentence.length+'</span></label>'}).join('')}
-document.querySelectorAll('.tb button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.tb button').forEach(function(x){x.classList.remove('act')});b.classList.add('act');var t=b.getAttribute('data-t');document.querySelectorAll('.ct').forEach(function(c){c.style.display='none'});document.getElementById('tab-'+t).style.display='block';if(t==='hist')rH();if(t==='set')lSU()})});
+function rGR(){var cont=document.getElementById('gr-content');var levs=['N5','N4','N3'];var html='';levs.forEach(function(lv){var lvGrams=gG(lv);if(!lvGrams.length)return;html+='<details class=gr-level><summary>'+lv+' ('+lvGrams.length+' points)</summary>';for(var i=0;i<lvGrams.length;i+=10){var grp=lvGrams.slice(i,i+10);var grpNum=Math.floor(i/10)+1;html+='<details class=gr-group><summary>Group '+grpNum+' (items '+(i+1)+'-'+(i+grp.length)+')</summary>';grp.forEach(function(g){html+='<div class=gr-item><div class=gr-point>'+g.grammar_point+'</div>';if(g.short_explanation)html+='<div class=gr-explain>'+g.short_explanation+'</div>';if(g.sentence)html+='<div class=gr-sent>'+g.sentence+'</div>';if(g.translation)html+='<div class=gr-trans>'+g.translation+'</div>';html+='</div>'});html+='</details>'}html+='</details>'});cont.innerHTML=html||'<p style="color:#8888aa">No grammar reference available</p>'}
+document.querySelectorAll('.tb button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.tb button').forEach(function(x){x.classList.remove('act')});b.classList.add('act');var t=b.getAttribute('data-t');document.querySelectorAll('.ct').forEach(function(c){c.style.display='none'});document.getElementById('tab-'+t).style.display='block';if(t==='hist')rH();if(t==='ref')rGR();if(t==='set')lSU()})});
 document.querySelectorAll('.lg button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.lg button').forEach(function(x){x.classList.remove('act')});b.classList.add('act');bGC(b.getAttribute('data-l'))})});
 document.querySelectorAll('.mt button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.mt button').forEach(function(x){x.classList.remove('act')});b.classList.add('act');curMode=b.getAttribute('data-md')})});
 document.getElementById('gs').addEventListener('input',function(e){var q=e.target.value.toLowerCase();document.querySelectorAll('#gc label').forEach(function(l){l.style.display=l.querySelector('span').textContent.toLowerCase().indexOf(q)>-1?'flex':'none'})});
