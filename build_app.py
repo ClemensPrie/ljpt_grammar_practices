@@ -1,8 +1,42 @@
 """Build the JLPT Grammar Practice app (index.html with embedded data)."""
-import json, csv
+import json, csv, struct, zlib
 from pathlib import Path
 
 DIR = Path("/Workspace/Users/clemens.priessnitz@oebb.at/databricks_apps/test")
+
+
+def make_png_icon(size, filepath):
+    """Generate a solid dark PNG with a red circle border (no text - keeps it simple)."""
+    bg = (15, 15, 26)       # #0f0f1a
+    fg = (233, 69, 96)      # #e94560
+    cx, cy = size // 2, size // 2
+    r_outer = int(size * 0.39)
+    r_inner = int(size * 0.35)
+    rows = []
+    for y in range(size):
+        row = []
+        for x in range(size):
+            d = ((x - cx) ** 2 + (y - cy) ** 2) ** 0.5
+            if r_inner <= d <= r_outer:
+                row.extend(fg)
+            else:
+                row.extend(bg)
+        rows.append(b'\x00' + bytes(row))  # filter byte + RGB
+    raw = b''.join(rows)
+    # PNG structure
+    def chunk(ctype, data):
+        c = ctype + data
+        return struct.pack('>I', len(data)) + c + struct.pack('>I', zlib.crc32(c) & 0xffffffff)
+    ihdr = struct.pack('>IIBBBBB', size, size, 8, 2, 0, 0, 0)
+    idat = zlib.compress(raw, 9)
+    png = b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', ihdr) + chunk(b'IDAT', idat) + chunk(b'IEND', b'')
+    filepath.write_bytes(png)
+
+
+# Generate icons
+make_png_icon(192, DIR / "icon-192.png")
+make_png_icon(512, DIR / "icon-512.png")
+print("Generated icon-192.png and icon-512.png")
 
 # Load grammar
 with open(DIR / "grammar_entries.json", encoding="utf-8") as f:
