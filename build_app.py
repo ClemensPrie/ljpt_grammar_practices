@@ -2,7 +2,7 @@
 import json, csv
 from pathlib import Path
 
-DIR = Path(r"C:\Users\cprie\Documents\Japanisch\kanji_study_helper")
+DIR = Path("/Workspace/Users/clemens.priessnitz@oebb.at/databricks_apps/test")
 
 # Load grammar
 with open(DIR / "grammar_entries.json", encoding="utf-8") as f:
@@ -34,9 +34,7 @@ tj = json.dumps(tdata, ensure_ascii=False)
 template = (DIR / "app_template.html").read_text(encoding="utf-8")
 html = template.replace("{{GRAMMAR_JSON}}", gj).replace("{{VOCAB_JSON}}", vj).replace("{{TOPICS_JSON}}", tj)
 
-out = DIR
-out.mkdir(exist_ok=True)
-(out / "index.html").write_text(html, encoding="utf-8")
+(DIR / "index.html").write_text(html, encoding="utf-8")
 
 print(f"Written: {DIR / 'index.html'}")
 print(f"Grammar: {len(gdata)}, Vocab: {len(vdata)}, Topics: {len(tdata)}")

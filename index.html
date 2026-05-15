@@ -113,18 +113,10 @@ function balancedExtract(s){var start=-1,openChar='',closeChar='';for(var i=0;i<
 function stripWs(s){return s.replace(/^[\s\uFEFF]+|[\s\uFEFF]+$/g,'')}
 function tryParse(jsonStr){jsonStr=stripWs(jsonStr);return JSON.parse(jsonStr)}
 try{var m=balancedExtract(c);if(m)return tryParse(m);var a=c.match(/\[[\s\S]*\]/);if(a)return tryParse(a[0]);var b=c.match(/\{[\s\S]*\}/);if(b)return tryParse(b[0]);return tryParse(c)}catch(e2){
-try{let lastJson=c.replace(/^[\s\uFEFF]+/,'');if(lastJson){for(let i=c.length-1;i>=0;i--){if(c[i]==='}'||c[i]===']'){let jsonStr=c.substring(0,i+1);try{return tryParse(jsonStr)}catch(e3){}}}}
-}catch(e4){}
+try{let lastJson=c.replace(/^[\s\uFEFF]+/,'');if(lastJson){for(let i=c.length-1;i>=0;i--){if(c[i]==='}'||c[i]===']'){let jsonStr=c.substring(0,i+1);try{return tryParse(jsonStr)}catch(e3){}}}}}catch(e4){}
 throw new Error('Could not extract valid JSON from response. Snippet: '+resSnippet)}}
-r.vocab.forEach(function(v){
-        var word = v && v.word != null ? String(v.word) : '';
-        var reading = v && v.reading != null ? String(v.reading) : '';
-        var meaning = v && v.meaning != null ? String(v.meaning) : '';
-        // DeepSeek sometimes returns "undefined" for missing kanji fields.
-        // Ensure we never render the literal string "undefined".
-        if (reading === 'undefined') reading = '';
-        if (meaning === 'undefined') meaning = '';
-        h+='<span class=vi><span class=kj>'+word+'</span><span class=kn>'+reading+'</span><span class=me>'+meaning+'</span></span>'});
+function rV(v){var word=v&&v.word!=null?String(v.word):'';var reading=v&&v.reading!=null?String(v.reading):'';var meaning=v&&v.meaning!=null?String(v.meaning):'';if(reading==='undefined')reading='';if(meaning==='undefined')meaning='';return '<span class=vi><span class=kj>'+word+'</span><span class=kn>'+reading+'</span><span class=me>'+meaning+'</span></span>'}
+function rS(r){var d=document.getElementById('res');var h='';if(!Array.isArray(r)){h+='<div class=rc><div class=m>Story</div><div class=jp>'+(r.text||'').replace(/\n/g,'<br>')+'</div>';if(r.translation)h+='<div class=en>'+r.translation.replace(/\n/g,'<br>')+'</div>';if(r.vocab&&r.vocab.length){h+='<div class=st>Vocabulary</div><div class=vl>';r.vocab.forEach(function(v){h+=rV(v)});h+='</div>'}if(r.grammars&&r.grammars.length){h+='<div class=st>Grammar</div><div class=gl>';r.grammars.forEach(function(g){h+='<span class=gi>'+g+'</span>'});h+='</div>'}h+='</div>'}else{r.forEach(function(s){h+='<div class=rc><div class=jp>'+(s.sentence||'')+'</div>';if(s.translation)h+='<div class=en>'+s.translation+'</div>';if(s.vocab&&s.vocab.length){h+='<div class=st>Vocabulary</div><div class=vl>';s.vocab.forEach(function(v){h+=rV(v)});h+='</div>'}if(s.grammar){h+='<div class=st>Grammar</div><div class=gl><span class=gi>'+s.grammar+'</span></div>'}h+='</div>'})}d.innerHTML=h}
 async function gen(){var b=document.getElementById('gen');var al=document.querySelector('.lg .act');if(!al)return;var l=al.getAttribute('data-l');var ck=document.querySelectorAll('#gc input:checked');var sl=[];ck.forEach(function(c){var f=G.find(function(g){return g.id===parseInt(c.value)});if(f)sl.push(f)});var c=parseInt(document.getElementById('cnt').value);var tr=document.getElementById('trans').checked;var stl=parseInt(document.getElementById('stl').value)||15;var md=curMode;b.disabled=true;b.textContent='...';document.getElementById('res').innerHTML='<div class=lod><div class=sp></div><p>Generating...</p></div>';try{var p=bP(l,sl,c,tr,md,stl);var r=await cA(p);rS(r);var hr=md==='t'?[{sentence:r.text||'',translation:r.translation||'',grammar:(r.grammars||[]).join(', '),vocab:r.vocab||[]}]:(Array.isArray(r)?r.slice(0,10):[r]);H.push({timestamp:new Date().toISOString(),level:l,mode:md,count:md==='t'?1:r.length,grammarCount:sl.length||'random',results:hr});sH()}catch(e){document.getElementById('res').innerHTML='<div class=rc style=border-color:#e94560><div class=m>Error</div><div style=color:#e94560>'+e.message+'</div></div>'}finally{b.disabled=false;b.textContent='Generate'}}
 function bGC(l){var c=document.getElementById('gc');c.innerHTML=gG(l).map(function(g){return '<label><input type=checkbox value='+g.id+'><span>'+g.grammar_point+'</span><span class=cb>'+g.sentence.length+'</span></label>'}).join('')}
 document.querySelectorAll('.tb button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.tb button').forEach(function(x){x.classList.remove('act')});b.classList.add('act');var t=b.getAttribute('data-t');document.querySelectorAll('.ct').forEach(function(c){c.style.display='none'});document.getElementById('tab-'+t).style.display='block';if(t==='hist')rH();if(t==='set')lSU()})});
@@ -137,4 +129,3 @@ document.getElementById('clh').addEventListener('click',function(){if(confirm('C
 </script>
 </body>
 </html>
-
