@@ -67,6 +67,29 @@ body{font-family:-apple-system,Helvetica Neue,sans-serif;background:#0f0f1a;colo
 ::-webkit-scrollbar{width:6px}input[type=password]{caret-color:#e94560}
 ruby{ ruby-align:center}rt{font-size:.45em;color:#e94560;user-select:none;-webkit-tap-highlight-color:transparent}
 .no-furigana rt{display:none}.no-furigana ruby{ruby-align:auto}
+.chat-container{display:flex;flex-direction:column;height:calc(100vh - 200px)}
+.chat-msgs{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:10px;padding:4px 0}
+.chat-msg{max-width:88%;padding:10px 14px;border-radius:12px;font-size:14px;line-height:1.6;white-space:pre-wrap}
+.chat-msg.user{align-self:flex-end;background:#e94560;color:#fff;border-bottom-right-radius:4px}
+.chat-msg.assistant{align-self:flex-start;background:#1a1a2e;border:1px solid #2a2a4a;border-bottom-left-radius:4px}
+.chat-msg.assistant b,.chat-msg.assistant strong{color:#e94560}
+.chat-msg pre{background:#0a0a12;padding:10px 12px;border-radius:8px;overflow-x:auto;font-size:13px;margin:6px 0;border:1px solid #2a2a4a}
+.chat-msg code{background:rgba(255,255,255,0.06);padding:2px 6px;border-radius:4px;font-size:13px;color:#e94560}
+.chat-msg pre code{background:none;padding:0;color:#e0e0e0}
+.chat-input-area{display:flex;gap:8px;padding:8px 0}
+.chat-input{flex:1;padding:10px 14px;border-radius:8px;border:1px solid #2a2a4a;background:#1a1a2e;color:#e0e0e0;font-size:14px;outline:none}
+.chat-input:focus{border-color:#e94560}
+.chat-input::placeholder{color:#555}
+.chat-send{padding:10px 20px;border-radius:8px;border:none;background:#e94560;color:#fff;font-weight:600;cursor:pointer;font-size:14px;white-space:nowrap}
+.chat-send:disabled{background:#553;color:#666;cursor:default}
+.chat-loading{text-align:center;color:#8888aa;font-size:13px;padding:16px;align-self:center}
+.chat-suggestions{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 8px}
+.chat-suggestions button{padding:6px 14px;border-radius:16px;border:1px solid #2a2a4a;background:#1a1a2e;color:#8888aa;font-size:12px;cursor:pointer;transition:all .15s;user-select:none;-webkit-tap-highlight-color:transparent}
+.chat-suggestions button:active{background:rgba(233,69,96,0.2);border-color:#e94560}
+.chat-welcome{text-align:center;padding:40px 12px;color:#666688;font-size:14px;line-height:1.6}
+.chat-welcome .ic{font-size:36px;margin-bottom:10px}
+.gear{position:fixed;bottom:16px;right:16px;width:40px;height:40px;border-radius:50%;border:1px solid #2a2a4a;background:#1a1a2e;color:#666688;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;z-index:20;transition:all .15s;user-select:none}
+.gear:active{background:#2a2a4a;color:#e0e0e0}
 </style>
 </head>
 <body>
@@ -78,7 +101,7 @@ ruby{ ruby-align:center}rt{font-size:.45em;color:#e94560;user-select:none;-webki
   <button class=act data-t=gen>Generate</button>
   <button data-t=ref>Grammar Ref</button>
   <button data-t=hist>History</button>
-  <button data-t=set>Settings</button>
+  <button data-t=chat>Chat</button>
 </div>
 <div class=ct id=tab-gen>
   <div class=lg>
@@ -115,13 +138,34 @@ ruby{ ruby-align:center}rt{font-size:.45em;color:#e94560;user-select:none;-webki
   <div id=hl><div class=es><div class=ic>&#128203;</div><h3>No history yet</h3></div></div>
   <button class=bclr id=clh style="width:100%;margin-top:12px;padding:10px;border-radius:8px;border:none;cursor:pointer">Clear History</button>
 </div>
+<div class=ct id=tab-chat style=display:none>
+  <div class=chat-container>
+    <div class=chat-msgs id=chatMsgs>
+      <div class=chat-welcome>
+        <div class=ic>&#127760;</div>
+        <p>Ask me anything about Japanese grammar, vocabulary, or usage. I'll explain with examples!</p>
+      </div>
+    </div>
+    <div class=chat-suggestions id=chatSuggestions>
+      <button data-q="Explain the difference between は and が">は vs が</button>
+      <button data-q="How do I use the 〜ている form? Explain with examples">〜ている form</button>
+      <button data-q="What's the difference between てあげる, ておく, and てもらう?">てあげる・ておく・てもらう</button>
+      <button data-q="Explain 〜かもしれない with example sentences">〜かもしれない</button>
+    </div>
+    <div class=chat-input-area>
+      <input class=chat-input id=chatInput placeholder="Ask a question..." autocomplete=off>
+      <button class=chat-send id=chatSend>Send</button>
+    </div>
+  </div>
+</div>
 <div class=ct id=tab-set style=display:none>
   <h3 style="margin-bottom:16px">Settings</h3>
   <p>DeepSeek API Key<br><input type=password id=key placeholder="sk-..." style="width:100%;padding:10px;border-radius:8px;border:1px solid #2a2a4a;background:#1a1a2e;color:#e0e0e0;font-size:14px"></p>
-  <p style=margin-top:12px>Model<br><select id=mdl style="width:100%;padding:10px;border-radius:8px;border:1px solid #2a2a4a;background:#1a1a2e;color:#e0e0e0;font-size:14px"><option value=deepseek-chat>deepseek-chat</option></select></p>
+  <p style=margin-top:12px>Model<br><select id=mdl style="width:100%;padding:10px;border-radius:8px;border:1px solid #2a2a4a;background:#1a1a2e;color:#e0e0e0;font-size:14px"><option value=deepseek-v4-flash>deepseek-v4-flash</option></select></p>
   <p style=margin-top:12px>Temperature: <span id=tv>1.0</span><br><input type=range id=tr min=0.1 max=1.5 step=0.1 value=1.0 style="width:100%;accent-color:#e94560"></p>
   <button id=svs style="padding:10px 24px;border-radius:8px;border:none;background:#e94560;color:#fff;font-weight:600;cursor:pointer">Save</button>
 </div>
+<button class=gear id=gearBtn aria-label=Settings>&#9881;</button>
 <script>
 var G="__GRAMMAR_JSON__";
 var V="__VOCAB_JSON__";
@@ -131,10 +175,12 @@ if(typeof V==='string')V=[];
 if(typeof T==='string')T={};
 var SK='jga4';
 var S=JSON.parse(localStorage.getItem(SK+'_s')||'{}');
-if(!S.apiKey)S={apiKey:'',model:'deepseek-chat',temperature:1.0};
+if(!S.apiKey)S={apiKey:'',model:'deepseek-v4-flash',temperature:0.5};
 var H=JSON.parse(localStorage.getItem(SK+'_h')||'[]');
 var curMode='s';
 var lastUsage=null;
+var chatMessages=[];
+var CHAT_SYS='You are a knowledgeable Japanese teacher. Help learners understand Japanese grammar, vocabulary, and usage.\n\nGuidelines:\n- Explain concepts simply and clearly.\n- Include 1-2 example sentences in Japanese with English translations for each point.\n- Be concise but thorough - cover key points without unnecessary detail.\n- Provide hiragana readings for kanji when introducing new words.\n- When comparing grammar points, explain the nuance differences with contrasting examples.\n\nFormat your response with markdown for readability.';
 function sH(){localStorage.setItem(SK+'_h',JSON.stringify(H.slice(0,200)))}
 function sh(a){for(var i=a.length-1;i>0;i--){var j=Math.random()*(i+1)|0;var t=a[i];a[i]=a[j];a[j]=t}return a}
 function pr(a,n){var s=sh([].concat(a));return s.slice(0,Math.min(n,s.length))}
@@ -184,30 +230,35 @@ function bP(l,sl,c,tr,mode,storyLen){
     return t
   }
 }
-async function cA(p){lastUsage=null;var k=S.apiKey;if(!k||k==='sk-...')throw new Error('Set API key in Settings');var r=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+k},body:JSON.stringify({model:S.model||'deepseek-chat',messages:[{role:'system',content:'You are a Japanese teacher. Respond with valid JSON only. Do not add any extra text, explanations, or notes.'},{role:'user',content:p}],temperature:S.temperature||1.0,max_tokens:12000})});if(!r.ok){var e=await r.text();throw new Error('Error '+r.status+': '+e)}var d=await r.json();lastUsage=d.usage||null;var c=d.choices[0].message.content;if(!c)throw new Error('Empty');c=c.replace(/`json?/gi,'').replace(/`/g,'').trim();c=c.replace(/^\ufeff/g,'').replace(/\ufeff/g,'').replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g,'');var resSnippet=c.substring(0,300);
+async function cA(p){lastUsage=null;var k=S.apiKey;if(!k||k==='sk-...')throw new Error('Set API key in Settings');var r=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+k},body:JSON.stringify({model:S.model||'deepseek-v4-flash',messages:[{role:'system',content:'You are a Japanese teacher. Respond with valid JSON only. Do not add any extra text, explanations, or notes.'},{role:'user',content:p}],temperature:S.temperature||1.0,max_tokens:12000})});if(!r.ok){var e=await r.text();throw new Error('Error '+r.status+': '+e)}var d=await r.json();lastUsage=d.usage||null;var c=d.choices[0].message.content;if(!c)throw new Error('Empty');c=c.replace(/`json?/gi,'').replace(/`/g,'').trim();c=c.replace(/^\ufeff/g,'').replace(/\ufeff/g,'').replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g,'');var resSnippet=c.substring(0,300);
 function balancedExtract(s){var start=-1,openChar='',closeChar='';for(var i=0;i<s.length;i++){var ch=s[i];if(ch==='{'||ch==='['){start=i;openChar=ch;closeChar=(ch==='{'?'}':']');break}}if(start<0)return null;var depth=0,inStr=false,esc=false;for(var j=start;j<s.length;j++){var ch2=s[j];if(inStr){if(esc)esc=false;else if(ch2==='\\')esc=true;else if(ch2==='"')inStr=false;continue}else{if(ch2==='"'){inStr=true;continue}if(ch2===openChar)depth++;else if(ch2===closeChar){depth--;if(depth===0)return s.substring(start,j+1)}}}return null}
 function stripWs(s){return s.replace(/^[\s\uFEFF]+|[\s\uFEFF]+$/g,'')}
 function tryParse(jsonStr){jsonStr=stripWs(jsonStr);return JSON.parse(jsonStr)}
 try{var m=balancedExtract(c);if(m)return tryParse(m);var a=c.match(/\[[\s\S]*\]/);if(a)return tryParse(a[0]);var b=c.match(/\{[\s\S]*\}/);if(b)return tryParse(b[0]);return tryParse(c)}catch(e2){
 try{let lastJson=c.replace(/^[\s\uFEFF]+/,'');if(lastJson){for(let i=c.length-1;i>=0;i--){if(c[i]==='}'||c[i]===']'){let jsonStr=c.substring(0,i+1);try{return tryParse(jsonStr)}catch(e3){}}}}}catch(e4){}
 throw new Error('Could not extract valid JSON from response. Snippet: '+resSnippet)}}
+async function cA_chat(systemPrompt, messages){var k=S.apiKey;if(!k||k==='sk-...')throw new Error('Set API key in Settings');var apiMessages=[{role:'system',content:systemPrompt}];var startIdx=Math.max(0,messages.length-20);for(var i=startIdx;i<messages.length;i++){apiMessages.push(messages[i])}var r=await fetch('https://api.deepseek.com/v1/chat/completions',{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+k},body:JSON.stringify({model:S.model||'deepseek-v4-flash',messages:apiMessages,temperature:S.temperature||1.0,max_tokens:4000})});if(!r.ok){var e=await r.text();throw new Error('Error '+r.status+': '+e)}var d=await r.json();var c=d.choices[0].message.content;if(!c)throw new Error('Empty response');return c}
 function isKanjiChar(c){return/[一-龯㐀-䶿]/.test(c)}
 function annotateWord(w,r){if(!r||w===r)return w;var bl=[],ik=false,bs=0;for(var i=0;i<w.length;i++){var kk=isKanjiChar(w[i]);if(kk&&!ik){bs=i;ik=true}else if(!kk&&ik){bl.push({s:bs,e:i});ik=false}}if(ik)bl.push({s:bs,e:w.length});if(!bl.length)return w;if(bl.length===1){var bf=w.slice(0,bl[0].s),kj=w.slice(bl[0].s,bl[0].e),af=w.slice(bl[0].e),kr=r;if(bf&&kr.startsWith(bf))kr=kr.slice(bf.length);if(af&&kr.endsWith(af))kr=kr.slice(0,-af.length);if(kr)return bf+'<ruby>'+kj+'<rt>'+kr+'</rt></ruby>'+af}return'<ruby>'+w+'<rt>'+r+'</rt></ruby>'}
 function applyFurigana(t,v){if(!v||!v.length)return t;var srt=v.slice().sort(function(a,b){return(b.word||b.kanji||'').length-(a.word||a.kanji||'').length});var rps=[];srt.forEach(function(v,i){var w=v.word||v.kanji||'';var rd=v.reading||v.kana||'';if(!w||!rd||w===rd)return;rps.push({re:new RegExp(w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'g'),ph:'___F'+i+'___',html:annotateWord(w,rd)})});var res=t;rps.forEach(function(r){res=res.replace(r.re,r.ph)});rps.forEach(function(r){res=res.replace(new RegExp(r.ph,'g'),r.html)});return res}
 function rV(v){if(!v)return '';var word=String(v.word||v.kanji||v.expression||'');var reading=String(v.reading||v.kana||'');var meaning=String(v.meaning||v.english||v.translation||'');if(reading==='undefined')reading='';if(meaning==='undefined')meaning='';return '<span class=vi><span class=kj>'+word+'</span><span class=kn>'+reading+'</span><span class=me>'+meaning+'</span></span>'}
 function rS(r){var d=document.getElementById('res');var h='';if(!Array.isArray(r)){h+='<div class=rc><div class=m>Story</div><div class=jp>'+applyFurigana((r.text||''),r.vocab).replace(/\n/g,'<br>')+'</div>';if(r.translation)h+='<div class=en>'+r.translation.replace(/\n/g,'<br>')+'</div>';if(r.vocab&&r.vocab.length){h+='<div class=st>Vocabulary</div><div class=vl>';r.vocab.forEach(function(v){h+=rV(v)});h+='</div>'}if(r.grammars&&r.grammars.length){h+='<div class=st>Grammar</div><div class=gl>';r.grammars.forEach(function(g){h+='<span class=gi>'+g+'</span>'});h+='</div>'}h+='</div>'}else{r.forEach(function(s){h+='<div class=rc><div class=jp>'+applyFurigana((s.sentence||''),s.vocab)+'</div>';if(s.translation)h+='<div class=en>'+s.translation+'</div>';if(s.vocab&&s.vocab.length){h+='<div class=st>Vocabulary</div><div class=vl>';s.vocab.forEach(function(v){h+=rV(v)});h+='</div>'}if(s.grammar){h+='<div class=st>Grammar</div><div class=gl><span class=gi>'+s.grammar+'</span></div>'}h+='</div>'})}d.innerHTML=h}
 function rU(){if(!lastUsage)return;var parts=[];if(lastUsage.prompt_tokens!=null)parts.push('input '+lastUsage.prompt_tokens);if(lastUsage.completion_tokens!=null)parts.push('output '+lastUsage.completion_tokens);if(lastUsage.total_tokens!=null)parts.push('total '+lastUsage.total_tokens);if(lastUsage.prompt_cache_hit_tokens!=null)parts.push('cache hit '+lastUsage.prompt_cache_hit_tokens);if(!parts.length)return;document.getElementById('res').insertAdjacentHTML('beforeend','<div class=usage>Tokens: '+parts.join(' · ')+'</div>')}
+function escHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+function mdToHtml(t){var s=escHtml(t);s=s.replace(/```(\w*)\n?([\s\S]*?)```/g,'<pre><code>$2</code></pre>');s=s.replace(/`([^`]+)`/g,'<code>$1</code>');s=s.replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>');s=s.replace(/\*([^*]+)\*/g,'<i>$1</i>');s=s.replace(/\n/g,'<br>');return s}
+function renderChat(){var el=document.getElementById('chatMsgs');if(!chatMessages.length){el.innerHTML='<div class=chat-welcome><div class=ic>&#127760;</div><p>Ask me anything about Japanese grammar, vocabulary, or usage. I\'ll explain with examples!</p></div>';return}var h='';for(var i=0;i<chatMessages.length;i++){var m=chatMessages[i];h+='<div class="chat-msg '+m.role+'">'+(m.role==='user'?escHtml(m.content):mdToHtml(m.content))+'</div>'}el.innerHTML=h;el.scrollTop=el.scrollHeight}
+async function sendChat(){var inp=document.getElementById('chatInput');var txt=inp.value.trim();if(!txt)return;chatMessages.push({role:'user',content:txt});inp.value='';renderChat();var container=document.getElementById('chatMsgs');container.insertAdjacentHTML('beforeend','<div class=chat-loading id=chatLoad><div class=sp style="width:24px;height:24px;border-width:2px;margin:0 auto 6px"></div><p>Thinking...</p></div>');container.scrollTop=container.scrollHeight;var sendBtn=document.getElementById('chatSend');inp.disabled=true;sendBtn.disabled=true;try{var resp=await cA_chat(CHAT_SYS,chatMessages);chatMessages.push({role:'assistant',content:resp})}catch(e){document.getElementById('chatMsgs').insertAdjacentHTML('beforeend','<div class=chat-msg style="align-self:center;background:rgba(233,69,96,0.1);color:#e94560;font-size:13px;padding:10px 14px;border-radius:8px;text-align:center;max-width:100%">Error: '+escHtml(e.message)+'</div>')}var loadEl=document.getElementById('chatLoad');if(loadEl)loadEl.remove();renderChat();inp.disabled=false;sendBtn.disabled=false;inp.focus()}
 async function gen(){var b=document.getElementById('gen');var al=document.querySelector('.lg .act');if(!al)return;var l=al.getAttribute('data-l');var ck=document.querySelectorAll('#gc .gc-item.selected');var sl=[];ck.forEach(function(c){var f=G.find(function(g){return g.id===parseInt(c.getAttribute('data-id'))});if(f)sl.push(f)});var c=parseInt(document.getElementById('cnt').value);var tr=document.getElementById('trans').checked;var stl=parseInt(document.getElementById('stl').value)||200;var md=curMode;var grammarCount=sl.length?Math.min(sl.length,c):c;b.disabled=true;b.textContent='...';document.getElementById('res').innerHTML='<div class=lod><div class=sp></div><p>Generating...</p></div>';try{var p=bP(l,sl,c,tr,md,stl);var r=await cA(p);rS(r);rU();var hr=md==='t'?[{sentence:r.text||'',translation:r.translation||'',grammar:(r.grammars||[]).join(', '),vocab:r.vocab||[]}]:(Array.isArray(r)?r.slice(0,10):[r]);H.push({timestamp:new Date().toISOString(),level:l,mode:md,count:md==='t'?1:r.length,grammarCount:grammarCount,results:hr});sH()}catch(e){document.getElementById('res').innerHTML='<div class=rc style=border-color:#e94560><div class=m>Error</div><div style=color:#e94560>'+e.message+'</div></div>'}finally{b.disabled=false;b.textContent='Generate'}}
 function bGC(l){var c=document.getElementById('gc');c.innerHTML=gG(l).map(function(g){return '<div class="gc-item" data-id='+g.id+'><span class=chk>✓</span><span class=cn>'+g.grammar_point+'</span><span class=cb>'+g.sentence.length+'</span></div>'}).join('')}
 document.getElementById('gc').addEventListener('click',function(e){var it=e.target.closest('.gc-item');if(it)it.classList.toggle('selected')})
 function rGR(){var cont=document.getElementById('gr-content');var levs=['N5','N4','N3'];var html='';levs.forEach(function(lv){var lvGrams=gG(lv);if(!lvGrams.length)return;html+='<details class=gr-level><summary>'+lv+' ('+lvGrams.length+' points)</summary>';for(var i=0;i<lvGrams.length;i+=10){var grp=lvGrams.slice(i,i+10);var grpNum=Math.floor(i/10)+1;html+='<details class=gr-group><summary>Group '+grpNum+' (items '+(i+1)+'-'+(i+grp.length)+')</summary>';grp.forEach(function(g){html+='<div class=gr-item><div class=gr-point>'+g.grammar_point+'</div>';if(g.short_explanation)html+='<div class=gr-explain>'+g.short_explanation+'</div>';if(g.sentence)html+='<div class=gr-sent>'+g.sentence+'</div>';if(g.translation)html+='<div class=gr-trans>'+g.translation+'</div>';html+='</div>'});html+='</details>'}html+='</details>'});cont.innerHTML=html||'<p style="color:#8888aa">No grammar reference available</p>'}
-document.querySelectorAll('.tb button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.tb button').forEach(function(x){x.classList.remove('act')});b.classList.add('act');var t=b.getAttribute('data-t');document.querySelectorAll('.ct').forEach(function(c){c.style.display='none'});document.getElementById('tab-'+t).style.display='block';if(t==='hist')rH();if(t==='ref')rGR();if(t==='set')lSU()})});
+document.querySelectorAll('.tb button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.tb button').forEach(function(x){x.classList.remove('act')});b.classList.add('act');var t=b.getAttribute('data-t');document.querySelectorAll('.ct').forEach(function(c){c.style.display='none'});document.getElementById('tab-'+t).style.display='block';if(t==='hist')rH();if(t==='ref')rGR();if(t==='set')lSU();if(t==='chat')document.getElementById('chatInput').focus()})});
 document.querySelectorAll('.lg button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.lg button').forEach(function(x){x.classList.remove('act')});b.classList.add('act');bGC(b.getAttribute('data-l'))})});
 document.querySelectorAll('.mt button').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.mt button').forEach(function(x){x.classList.remove('act')});b.classList.add('act');curMode=b.getAttribute('data-md')})});
 document.getElementById('gs').addEventListener('input',function(e){var q=e.target.value.toLowerCase();document.querySelectorAll('#gc .gc-item').forEach(function(l){l.style.display=l.querySelector('.cn').textContent.toLowerCase().indexOf(q)>-1?'flex':'none'})});
 function rH(){var c=document.getElementById('hl');if(!H.length){c.innerHTML='<div class=es><div class=ic>&#128203;</div><h3>No history yet</h3></div>';return}c.innerHTML=H.slice().reverse().map(function(h,i){var ml=h.mode==='t'?'text':h.count+' sentences';return '<div class=hi onclick=vH('+(H.length-1-i)+')><span class=hl>'+h.level+'</span> '+ml+' '+(h.grammarCount==='random'?'(random)':'('+h.grammarCount+' specific)')+'<div class=hj>'+(h.results[0]?.sentence?.substring(0,50)||'...')+'</div><div class=he>'+new Date(h.timestamp).toLocaleString()+'</div></div>'}).join('')}
 function vH(i){var h=H[i];if(!h)return;document.querySelector('[data-t=gen]').click();if(h.results.length===1&&h.results[0].sentence&&h.mode==='t'){rS({text:h.results[0].sentence,translation:h.results[0].translation,grammars:(h.results[0].grammar||'').split(', '),vocab:h.results[0].vocab||[]})}else{rS(h.results)}document.querySelectorAll('.lg button').forEach(function(b){b.classList.remove('act')});var lb=document.querySelector('.lg button[data-l="'+h.level+'"]');if(lb)lb.classList.add('act')}
-document.getElementById('clh').addEventListener('click',function(){if(confirm('Clear?')){H=[];sH();rH()}});document.getElementById('gen').addEventListener('click',gen);document.getElementById('clr').addEventListener('click',function(){document.getElementById('res').innerHTML='' });function lSU(){document.getElementById('key').value=S.apiKey||'';document.getElementById('mdl').value=S.model||'deepseek-chat';document.getElementById('tr').value=S.temperature||1.0;document.getElementById('tv').textContent=S.temperature||1.0}document.getElementById('tr').addEventListener('input',function(e){document.getElementById('tv').textContent=e.target.value});document.getElementById('svs').addEventListener('click',function(){S.apiKey=document.getElementById('key').value.trim();S.model=document.getElementById('mdl').value;S.temperature=parseFloat(document.getElementById('tr').value);localStorage.setItem(SK+'_s',JSON.stringify(S));alert('Saved!')});document.getElementById('furigana').addEventListener('change',function(){var res=document.getElementById('res');if(this.checked)res.classList.remove('no-furigana');else res.classList.add('no-furigana')});bGC('N4');lSU();if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js')}
+document.getElementById('clh').addEventListener('click',function(){if(confirm('Clear?')){H=[];sH();rH()}});document.getElementById('gen').addEventListener('click',gen);document.getElementById('clr').addEventListener('click',function(){document.getElementById('res').innerHTML='' });function lSU(){document.getElementById('key').value=S.apiKey||'';document.getElementById('mdl').value=S.model||'deepseek-v4-flash';document.getElementById('tr').value=S.temperature||1.0;document.getElementById('tv').textContent=S.temperature||1.0}document.getElementById('tr').addEventListener('input',function(e){document.getElementById('tv').textContent=e.target.value});document.getElementById('svs').addEventListener('click',function(){S.apiKey=document.getElementById('key').value.trim();S.model=document.getElementById('mdl').value;S.temperature=parseFloat(document.getElementById('tr').value);localStorage.setItem(SK+'_s',JSON.stringify(S));alert('Saved!')});document.getElementById('furigana').addEventListener('change',function(){var res=document.getElementById('res');if(this.checked)res.classList.remove('no-furigana');else res.classList.add('no-furigana')});document.getElementById('gearBtn').addEventListener('click',function(){document.querySelectorAll('.tb button').forEach(function(x){x.classList.remove('act')});document.querySelectorAll('.ct').forEach(function(c){c.style.display='none'});document.getElementById('tab-set').style.display='block';lSU()});document.getElementById('chatSend').addEventListener('click',sendChat);document.getElementById('chatInput').addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();sendChat()}});document.getElementById('chatSuggestions').addEventListener('click',function(e){var btn=e.target.closest('button');if(btn){document.getElementById('chatInput').value=btn.getAttribute('data-q');sendChat()}});bGC('N4');lSU();if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js')}
 </script>
 </body>
 </html>
